@@ -20,7 +20,7 @@ Features
 
 Data Source
 -------------
-Edmunds API for car value based on mileage and age
+Edmunds API for car value based on mileage and age (http://developer.edmunds.com/)
 
 Interesting query
 -----------------
