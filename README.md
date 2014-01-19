@@ -15,8 +15,7 @@ Features
 --------
 - Enter information on Car
 - Create DIY repair project
-- Enter Parts information and cost
-- Display cost and hours of repair project based on parts and labor
+- Enter Parts information for project
 
 Data Source
 -------------
