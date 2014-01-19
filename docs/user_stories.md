@@ -1,11 +1,8 @@
 User Stories
 ============
 
-<h3>Use Case #1</h3>
+<h4>As a vehicle owner I want to enter a new car into the database</h4>
 <pre>
-  As a vehicle owner
-  I want to enter a new car into the database
-
   Usage: ./autotracker new_car
 
   Acceptance Criteria:
@@ -21,11 +18,8 @@ User Stories
   * Once car value is successfully retreived, displays the information from database for new Car object
 </pre>
 
-<h3>Use Case #2</h3>
+<h4>As a vehicle owner that has entered information about their car into the application I want to enter a DIY repair project for that vehicle</h4>
 <pre>
-  As a vehicle owner that has entered information about their car into the application
-  I want to enter a DIY repair project for that vehicle
-
   Usage: ./autotracker new_project
 
   Acceptance Criteria:
@@ -40,11 +34,8 @@ User Stories
   * Once all data is entered, displays the information from database for new Project object and associated Parts objects
 </pre>
 
-<h3>Use Case #3</h3>
+<h4>As a vehicle owner that has entered information about a Project into the application I want to add a part to that project</h4>
 <pre>
-  As a vehicle owner that has entered information about a Project into the application
-  I want to add a part to that project
-
   Usage: ./autotracker new_part
 
   Acceptance Criteria:
@@ -56,11 +47,8 @@ User Stories
   * Once all data is entered, displays the information from database for Project object and associated Parts objects
 </pre>
 
-<h3>Use Case #4</h3>
+<h4>As a vehicle owner that has entered information about their car into the application I want to get the current value of my vehicle based on its mileage</h4>
 <pre>
-  As a vehicle owner that has entered information about their car into the application
-  I want to get the current value of my vehicle based on its mileage
-
   Usage: ./autotracker car_value
 
   Acceptance Criteria:
@@ -70,11 +58,8 @@ User Stories
   * Updates DB with current mileage and current value, based on Edmunds API response
 </pre>
 
-<h3>Use Case #5</h3>
+<h4>As a vehicle owner that has entered information about a repair project into the application I want to get the details of the project, including parts and completion time</h4>
 <pre>
-  As a vehicle owner that has entered information about a repair project into the application
-  I want to get the details of the project, including parts and completion time
-
   Usage: ./autotracker show_project
 
   Acceptance Criteria:
@@ -85,11 +70,8 @@ User Stories
   * Displays the information from database for Project object
 </pre>
 
-<h3>Use Case #6</h3>
+<h4>As a vehicle owner that has entered information about a project into the application I want to display a list of the parts used in that project and their total cost</h4>
 <pre>
-  As a vehicle owner that has entered information about a project into the application
-  I want to display a list of the parts used in that project and their total cost
-
   Usage: ./autotracker show_parts
 
   Acceptance Criteria:
