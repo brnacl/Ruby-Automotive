@@ -20,7 +20,8 @@ Features
 
 Data Source
 -------------
-Edmunds API for car value based on mileage and age (http://developer.edmunds.com/)
+- Edmunds API for car value based on mileage and age (http://developer.edmunds.com/)
+- SQLite Database (link to DOMAIN Diagram: http://www.gliffy.com/go/publish/image/5272441/L.png)
 
 Interesting query
 -----------------
