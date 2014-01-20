@@ -8,18 +8,19 @@ db = DB.new
 output_header()
 
 if ARGV[0].nil?
-  command = ""
+  command = nil
 else
   command = ARGV[0]
 end
 
-until command.downcase == "exit"
-  puts yellow("\nPlease Enter a Command:") + blue("(add_car, add_project, add_part, show_cars, show_projects, show_parts, exit)")
-  command = gets.chomp.downcase
+until command == "7"
+  puts "\nPlease Enter a #{red('NUMBER')}..."
+  puts green("1(Show Cars)\n2(Show Projects)\n3(Show Parts)\n4(Add Car)\n5(Add Project)\n6(Add Part)\n7(Exit)")
+  command = gets.to_i
   output_header()
 
   case command
-  when 'add_car'
+  when 4
     puts "\nEnter vehicle year (2006):"
     year = gets.chomp
     output_header()
@@ -52,31 +53,31 @@ until command.downcase == "exit"
     new_car = Car.new(year, make, model, trim, purchase_mileage, purchase_price, purchase_date)
 
   when 'add_project'
-    puts purple("...Adding Project")
+    puts purple("...Adding Project\n")
   when 'add_part'
-    puts purple("...Adding Part")
-  when 'show_cars'
-    puts purple("...Showing Cars")
+    puts purple("...Adding Part\n")
+  when 1
+    puts purple("...Showing Cars\n")
     cars = db.get_cars
     cars.each do |car|
       puts car
     end
-  when 'show_projects'
-    puts purple("...Showing Projects")
+  when 2
+    puts purple("...Showing Projects\n")
     projects = db.get_projects
     projects.each do |project|
       puts project
     end
-  when 'show_parts'
-    puts purple("...Showing Parts")
+  when 3
+    puts purple("...Showing Parts\n")
     parts = db.get_parts
     parts.each do |part|
       puts part
     end
-  when 'exit'
-    puts "\e[H\e[2J"
+  when 7
+    output_clear()
     break
   else
-    puts red("Error: Invalid Command!") if command.downcase != "exit"
+    puts red("Error: Invalid Command!")
   end
 end
