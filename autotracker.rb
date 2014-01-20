@@ -1,6 +1,9 @@
 require_relative 'lib/colors.rb'
 require_relative 'lib/output_formatting.rb'
+require_relative 'lib/db.rb'
 require_relative 'lib/car.rb'
+
+db = DB.new
 
 output_header()
 
@@ -43,11 +46,10 @@ until command.downcase == "exit"
     puts purple("#{year} #{make} #{model} #{trim} with #{purchase_mileage} miles for $#{purchase_price}")
     puts "Enter vehicle original purchase date (mm/dd/yyyy):"
     purchase_date = gets.chomp
-    new_car = Car.new(year, make, model, trim, purchase_mileage, purchase_price, purchase_date)
-
-    output_header
+    output_header()
     puts purple("#{year} #{make} #{model} #{trim} with #{purchase_mileage} miles for $#{purchase_price} on #{purchase_date}")
     puts "Car entered successfully!"
+    new_car = Car.new(year, make, model, trim, purchase_mileage, purchase_price, purchase_date)
 
   when 'add_project'
     puts purple("...Adding Project")
@@ -55,10 +57,22 @@ until command.downcase == "exit"
     puts purple("...Adding Part")
   when 'show_cars'
     puts purple("...Showing Cars")
+    cars = db.get_cars
+    cars.each do |car|
+      puts car
+    end
   when 'show_projects'
     puts purple("...Showing Projects")
+    projects = db.get_projects
+    projects.each do |project|
+      puts project
+    end
   when 'show_parts'
     puts purple("...Showing Parts")
+    parts = db.get_parts
+    parts.each do |part|
+      puts part
+    end
   when 'exit'
     puts "\e[H\e[2J"
     break

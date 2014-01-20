@@ -2,6 +2,7 @@ require 'edmunds_ruby'
 require 'net/http'
 require 'json'
 
+
 class Car
   attr_accessor :year, :make, :model, :trim, :purchase_mileage, :purchase_price, :current_value, :purchase_date
 
@@ -46,9 +47,9 @@ class Car
 
   end
 
-  def display
 
-  end
+
+
 
 
 end
