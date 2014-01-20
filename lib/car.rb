@@ -46,5 +46,9 @@ class Car
 
   end
 
+  def display
+
+  end
+
 
 end
