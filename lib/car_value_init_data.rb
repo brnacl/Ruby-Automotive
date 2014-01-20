@@ -1,6 +1,7 @@
 require 'edmunds_ruby'
 require 'net/http'
 require 'json'
+
 car = {}
 edmunds = Edmunds::API.new
 api_key  = edmunds.api_key
