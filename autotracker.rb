@@ -1,80 +1,73 @@
 require_relative 'lib/colors.rb'
 require_relative 'lib/output_formatting.rb'
+require_relative 'lib/mechanics.rb'
 require_relative 'lib/db.rb'
+
 require_relative 'lib/car.rb'
 
 db = DB.new
 
+command_1 = ARGV[0].nil? ? nil : ARGV[0]
+
 output_header()
 
-if ARGV[0].nil?
-  command = nil
-else
-  command = ARGV[0]
-end
-
-until command == "7"
-  puts "\nPlease Enter a #{red('NUMBER')}..."
-  puts green("1(Show Cars)\n2(Show Projects)\n3(Show Parts)\n4(Add Car)\n5(Add Project)\n6(Add Part)\n7(Exit)")
-  command = gets.to_i
+until command_1.to_i == 5
+  output_header()
+  output_main_menu()
+  command_1 = gets.to_i
   output_header()
 
-  case command
-  when 4
-    puts "\nEnter vehicle year (2006):"
-    year = gets.chomp
-    output_header()
-    puts purple("#{year}")
-    puts "Enter vehicle make (Volkswagen):"
-    make = gets.chomp
-    output_header()
-    puts purple("#{year} #{make}")
-    puts "Enter vehicle model (Jetta):"
-    model = gets.chomp
-    output_header()
-    puts purple("#{year} #{make} #{model}")
-    puts "Enter vehicle trim package (LX, 2.5, Quattro):"
-    trim = gets.chomp
-    output_header()
-    puts purple("#{year} #{make} #{model} #{trim}")
-    puts "Enter vehicle original purchase mileage (100000):"
-    purchase_mileage = gets.chomp
-    output_header()
-    puts purple("#{year} #{make} #{model} #{trim} with #{purchase_mileage} miles")
-    puts "Enter vehicle original purchase price (8000.00):"
-    purchase_price = gets.chomp
-    output_header()
-    puts purple("#{year} #{make} #{model} #{trim} with #{purchase_mileage} miles for $#{purchase_price}")
-    puts "Enter vehicle original purchase date (mm/dd/yyyy):"
-    purchase_date = gets.chomp
-    output_header()
-    puts purple("#{year} #{make} #{model} #{trim} with #{purchase_mileage} miles for $#{purchase_price} on #{purchase_date}")
-    puts "Car entered successfully!"
-    new_car = Car.new(year, make, model, trim, purchase_mileage, purchase_price, purchase_date)
-
-  when 'add_project'
-    puts purple("...Adding Project\n")
-  when 'add_part'
-    puts purple("...Adding Part\n")
+  case command_1
   when 1
-    puts purple("...Showing Cars\n")
-    cars = db.get_cars
-    cars.each do |car|
-      puts car
+    ids = get_cars(db)
+    puts "\nPlease Enter a #{red('NUMBER')} to display vehicle information, or "+green("0")+" for main menu..."
+    command_2 = gets.to_i
+
+    if command_2.to_i > 0
+      command_3 = ""
+      until command_3 == 0
+        output_header()
+        details = Car.db_read(db,ids[command_2.to_i])[0]
+        current_car = Car.new(details)
+        output_car_details(details)
+        output_car_menu()
+        command_3 = gets.to_i
+
+        case command_3
+        when 1
+          output_header()
+          output_car_details(details)
+          puts "\nPlease Enter current mileage:"
+          current_mileage = gets.to_i
+          puts "\nPlease Enter current condition:"
+          condition = gets.chomp
+          puts "\nPlease Enter current zip-code:"
+          zip_code = gets.to_i
+          puts "Getting current value..."
+          current_value = current_car.get_current_value(current_mileage,condition,zip_code)
+          puts "Current value: "+blue("$#{current_value}")
+          puts "\nPlease Enter a #{red('NUMBER')}..."
+          output_car_menu_update_value()
+          command_4 = gets.to_i
+          if command_4 == 1
+            current_car.current_value = current_value
+            current_car.current_mileage = current_mileage
+            current_car.db_update(db,ids[command_2.to_i])
+          end
+        when 2
+
+        end
+      end
+      output_header()
     end
+
   when 2
     puts purple("...Showing Projects\n")
-    projects = db.get_projects
-    projects.each do |project|
-      puts project
-    end
   when 3
-    puts purple("...Showing Parts\n")
-    parts = db.get_parts
-    parts.each do |part|
-      puts part
-    end
-  when 7
+    add_car(db)
+  when 4
+    puts purple("...Adding Projects\n")
+  when 5
     output_clear()
     break
   else
