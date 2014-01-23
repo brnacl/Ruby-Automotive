@@ -4,6 +4,7 @@ require_relative 'lib/colors.rb'
 require_relative 'lib/middleware.rb'
 
 require_relative 'lib/car.rb'
+require_relative 'lib/project.rb'
 
 db = SQLite3::Database.new "data/ruby_auto.sqlite"
 
@@ -44,13 +45,13 @@ until command_1.to_i == 5
             if command_4 == 1
               current_car.current_value = current_info[0]
               current_car.current_mileage = current_info[1]
-              current_car.db_update(db,ids[command_2.to_i])
+              current_car.db_update(db,current_car.car_id)
             end
           end
         when 2
           confirm_delete = output_car_confirm_delete()
           if confirm_delete
-            current_car.db_delete(db,ids[command_2.to_i])
+            current_car.db_delete(db,current_car.car_id)
             command_3 = 0
           end
         end
@@ -59,11 +60,22 @@ until command_1.to_i == 5
     end
 
   when 2
-    puts purple("...Showing Projects\n")
+    ids = output_all_projects(db)
+    output_all_projects_menu(ids.length-1)
+    command_2 = gets.to_i
   when 3
     output_add_car(db)
   when 4
-    puts purple("...Adding Projects\n")
+    ids = output_add_project_cars(db)
+    output_all_cars_menu(ids.length-1)
+
+    selection = gets.to_i
+    if selection > 0 && selection < ids.length
+      output_header()
+      car_id = ids[selection]
+      header = output_add_project_car_header(db, car_id)
+      output_add_project(db,car_id,header)
+    end
   when 5
     output_clear()
     break

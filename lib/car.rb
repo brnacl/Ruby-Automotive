@@ -3,9 +3,10 @@ require 'net/http'
 require 'json'
 
 class Car
-  attr_accessor :year, :make, :model, :trim, :purchase_mileage, :purchase_price, :purchase_date, :current_value, :current_mileage
+  attr_accessor :car_id, :year, :make, :model, :trim, :purchase_mileage, :purchase_price, :purchase_date, :current_value, :current_mileage
 
   def initialize args
+    @car_id = args[0]
     @year = args[1]
     @make = args[2]
     @model = args[3]
@@ -74,7 +75,7 @@ class Car
       end
     else
       begin
-        db.execute( "SELECT * FROM Cars WHERE CarID") do |row|
+        db.execute( "SELECT * FROM Cars") do |row|
           output << row
         end
       rescue Exception=>e

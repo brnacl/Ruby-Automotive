@@ -1,4 +1,5 @@
 require_relative 'car.rb'
+require_relative 'project.rb'
 
 def output_clear
   puts "\e[H\e[2J"
@@ -99,6 +100,7 @@ end
 
 def output_add_car db
   new_car = []
+  new_car[0] = 0
   puts "\nEnter vehicle year (2006):"
   new_car[1] = gets.chomp
   output_header()
@@ -130,8 +132,6 @@ def output_add_car db
   puts "Car entered successfully!"
   new_car[8] = 0
   new_car[9] = 0
-  new_car[10] = ""
-  new_car[11] = 0
   new_car = Car.new(new_car)
   new_car.db_create(db)
 end
@@ -142,4 +142,75 @@ def output_car_confirm_delete
   confirm = gets.to_i
   return true if confirm == 9
   return false if confirm == 1
+end
+
+def output_all_projects  db
+  puts "PROJECTS\n"
+  projects = Project.db_read(db)
+  i = 1
+  ids = [0]
+  projects.each do |project|
+    puts "\t#{i}. "+yellow("#{project[0]} #{project[1]} #{project[2]}, #{project[3]}, #{project[4]}")
+    ids << project[0]
+    i += 1
+  end
+  ids
+end
+
+def output_all_projects_menu num_projects
+  menu = "\nCARS MENU > "
+  menu << green("0")+"(Main Menu) | "
+  menu << green("1..#{num_projects}")+"(Select Project)"
+  puts menu
+end
+
+def output_add_project_cars db
+  puts "ADD PROJECT - SELECT CAR\n"
+  cars = Car.db_read(db)
+  i = 1
+  ids = [0]
+  cars.each do |car|
+    puts "\t#{i}. "+yellow("#{car[1]} #{car[2]} #{car[3]}")
+    ids << car[0]
+    i += 1
+  end
+  ids
+end
+
+def output_add_project_car_header db,car_id
+  car = Car.db_read(db,car_id)[0]
+  header = "Car: " + green("#{car[1]} #{car[2]} #{car[3]}")
+  return header
+end
+
+def output_add_project db,car_id,header
+  puts header
+  new_project = []
+  new_project[0] = 0
+  new_project[1] = car_id
+  puts "\nEnter a title for this new project..."
+  new_project[2] = gets.chomp
+  sub_header_title = "Project: #{green(new_project[2])}"
+  output_header()
+  puts header
+  puts sub_header_title
+  puts "\nEnter a description:"
+  new_project[3] = gets.chomp
+  sub_header_description = "Description: #{green(new_project[3])}"
+  output_header()
+  puts header
+  puts sub_header_title
+  puts sub_header_description
+  puts "\nEnter current vehicle mileage..."
+  new_project[4] = gets.chomp
+  sub_header_mileage = "Mileage: #{green(new_project[4])}"
+  output_header()
+  puts header
+  puts sub_header_title
+  puts sub_header_description
+  puts sub_header_mileage
+  puts "\nEnter the start date for the project..."
+  new_project[5] = gets.chomp
+  new_project = Project.new(new_project)
+  new_project.db_create(db)
 end
