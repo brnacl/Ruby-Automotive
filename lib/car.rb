@@ -37,19 +37,24 @@ class Car
       return 0
     else
       uri = URI.parse(base_url + '?styleid='+style_id.to_s+'&condition='+condition+'&mileage='+mileage.to_s+'&zip='+zip.to_s+'&fmt=json&api_key=' + api_key)
+
       http = Net::HTTP.new(uri.host, uri.port)
       http.use_ssl = true
       req = Net::HTTP::Get.new(uri.request_uri)
       res = http.request(req)
       res_car = res.body
       res_car = JSON.parse(res_car)
-      res_car['tmv']['totalWithOptions']['usedPrivateParty']
+      if res_car['tmv'].nil?
+        return "error"
+      else
+        res_car['tmv']['totalWithOptions']['usedPrivateParty']
+      end
     end
   end
 
   def db_create db
     begin
-      db.connect.execute("INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage)
+      db.execute("INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage)
                   VALUES (?,?,?,?,?,?,?,?,?)", [@year,@make,@model,@trim,@purchase_mileage,@purchase_price,@purchase_date,@current_value,@current_mileage])
       return "Success"
     rescue Exception=>e
@@ -61,7 +66,7 @@ class Car
     output = []
     if id
       begin
-        db.connect.execute( "SELECT * FROM Cars WHERE CarID = " + id.to_s ) do |row|
+        db.execute( "SELECT * FROM Cars WHERE CarID = " + id.to_s ) do |row|
           output << row
         end
       rescue Exception=>e
@@ -69,7 +74,7 @@ class Car
       end
     else
       begin
-        db.connect.execute( "SELECT * FROM Cars WHERE CarID") do |row|
+        db.execute( "SELECT * FROM Cars WHERE CarID") do |row|
           output << row
         end
       rescue Exception=>e
@@ -81,13 +86,20 @@ class Car
 
   def db_update db,id
     begin
-
-      db.connect.execute("UPDATE Cars SET CurrentMileage="+@current_mileage.to_s+", CurrentValue="+@current_value.to_s+" WHERE CarID="+id.to_s)
+      db.execute("UPDATE Cars SET CurrentMileage="+@current_mileage.to_s+", CurrentValue="+@current_value.to_s+" WHERE CarID="+id.to_s)
       return "Success"
     rescue Exception=>e
       return "An error has occured: #{e}"
     end
+  end
 
+  def db_delete db,id
+    begin
+      db.execute("DELETE FROM Cars WHERE CarID="+id.to_s)
+      return "Success"
+    rescue Exception=>e
+      return "An error has occured: #{e}"
+    end
   end
 
 end

@@ -1,11 +1,11 @@
+require 'sqlite3'
+
 require_relative 'lib/colors.rb'
-require_relative 'lib/output_formatting.rb'
-require_relative 'lib/mechanics.rb'
-require_relative 'lib/db.rb'
+require_relative 'lib/middleware.rb'
 
 require_relative 'lib/car.rb'
 
-db = DB.new
+db = SQLite3::Database.new "data/ruby_auto.sqlite"
 
 command_1 = ARGV[0].nil? ? nil : ARGV[0]
 
@@ -19,10 +19,10 @@ until command_1.to_i == 5
 
   case command_1
   when 1
-    ids = get_cars(db)
-    puts "\nPlease Enter a #{red('NUMBER')} to display vehicle information, or "+green("0")+" for main menu..."
-    command_2 = gets.to_i
+    ids = output_all_cars(db)
+    output_all_cars_menu(ids.length-1)
 
+    command_2 = gets.to_i
     if command_2.to_i > 0
       command_3 = ""
       until command_3 == 0
@@ -31,40 +31,37 @@ until command_1.to_i == 5
         current_car = Car.new(details)
         output_car_details(details)
         output_car_menu()
-        command_3 = gets.to_i
 
+        command_3 = gets.to_i
         case command_3
         when 1
           output_header()
           output_car_details(details)
-          puts "\nPlease Enter current mileage:"
-          current_mileage = gets.to_i
-          puts "\nPlease Enter current condition:"
-          condition = gets.chomp
-          puts "\nPlease Enter current zip-code:"
-          zip_code = gets.to_i
-          puts "Getting current value..."
-          current_value = current_car.get_current_value(current_mileage,condition,zip_code)
-          puts "Current value: "+blue("$#{current_value}")
-          puts "\nPlease Enter a #{red('NUMBER')}..."
-          output_car_menu_update_value()
-          command_4 = gets.to_i
-          if command_4 == 1
-            current_car.current_value = current_value
-            current_car.current_mileage = current_mileage
-            current_car.db_update(db,ids[command_2.to_i])
+          current_info = output_car_update_value(current_car)
+          if current_info
+            command_4 = gets.to_i
+            if command_4 == 1
+              current_car.current_value = current_info[0]
+              current_car.current_mileage = current_info[1]
+              current_car.db_update(db,ids[command_2.to_i])
+            end
           end
         when 2
-
+          confirm_delete = output_car_confirm_delete()
+          if confirm_delete
+            current_car.db_delete(db,ids[command_2.to_i])
+            command_3 = 0
+          end
         end
       end
+
       output_header()
     end
 
   when 2
     puts purple("...Showing Projects\n")
   when 3
-    add_car(db)
+    output_add_car(db)
   when 4
     puts purple("...Adding Projects\n")
   when 5
