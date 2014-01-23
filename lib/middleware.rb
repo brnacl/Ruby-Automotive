@@ -41,9 +41,19 @@ def output_car_update_value car
   puts "\nEnter current mileage:"
   current_mileage = gets.to_i
   return false if current_mileage == 0
-  puts "\nEnter current condition ("+green("Outstanding, Clean, Average, Rough, Damaged")+"): "
-  condition = gets.chomp
-  return false if condition == "0"
+  condition_values = ["Cancel","Outstanding","Clean","Average","Rough","Damaged"]
+  options = "\nEnter current condition "
+  options << green("1")+"(#{condition_values[1]}) | "
+  options << green("2")+"(#{condition_values[2]}) | "
+  options << green("3")+"(#{condition_values[3]}) | "
+  options << green("4")+"(#{condition_values[4]}) | "
+  options << green("5")+"(#{condition_values[5]})"
+  puts options
+
+  condition_input = gets.to_i
+  return false if condition_input == 0
+  condition = condition_values[condition_input]
+
   puts "\nEnter current zip-code:"
   zip_code = gets.to_i
   return false if zip_code == 0

@@ -39,6 +39,7 @@ until command_1.to_i == 5
           output_car_details(details)
           current_info = output_car_update_value(current_car)
           if current_info
+
             command_4 = gets.to_i
             if command_4 == 1
               current_car.current_value = current_info[0]
@@ -54,7 +55,6 @@ until command_1.to_i == 5
           end
         end
       end
-
       output_header()
     end
 
