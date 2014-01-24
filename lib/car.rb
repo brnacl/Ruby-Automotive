@@ -18,7 +18,10 @@ class Car
     @current_mileage = args[9]
   end
 
-  def get_current_value mileage, condition, zip
+  def get_current_value args
+    mileage = args[0]
+    condition = args[1]
+    zip = args[2]
     edmunds = Edmunds::API.new
     api_key  = edmunds.api_key
     base_url = 'https://api.edmunds.com/v1/api/tmv/tmvservice/calculateusedtmv'
@@ -68,21 +71,25 @@ class Car
     if id
       begin
         db.execute( "SELECT * FROM Cars WHERE CarID = " + id.to_s ) do |row|
+          row = self.new(row)
           output << row
         end
+        return output
       rescue Exception=>e
         return "An error has occured: #{e}"
       end
     else
       begin
+        output = []
         db.execute( "SELECT * FROM Cars") do |row|
+          row = self.new(row)
           output << row
         end
+        return output
       rescue Exception=>e
         return "An error has occured: #{e}"
       end
     end
-    output
   end
 
   def db_update db,id

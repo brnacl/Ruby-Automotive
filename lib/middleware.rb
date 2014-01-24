@@ -12,7 +12,7 @@ def output_header
 end
 
 def output_main_menu
-  menu = "MAIN MENU > "
+  menu = "\nMAIN MENU > "
   menu << green("1")+"(Show Cars) | "
   menu << green("2")+"(Show Projects) | "
   menu << green("3")+"(Add Car) | "
@@ -38,10 +38,16 @@ def output_car_menu
 end
 
 def output_car_update_value car
-  puts "\nEnter \""+green("0")+"\" to "+red("CANCEL")
-  puts "\nEnter current mileage:"
-  current_mileage = gets.to_i
-  return false if current_mileage == 0
+  output_car_menu_get_value()
+  output_car_details(car)
+  input = []
+  puts "\n\n\nEnter current mileage:"
+  input[0] = gets.to_i
+  return false if input[0] == 0
+  output_header()
+  output_car_menu_get_value()
+  output_car_details(car)
+  puts purple("\n#{input[0]}")
   condition_values = ["Cancel","Outstanding","Clean","Average","Rough","Damaged"]
   options = "\nEnter current condition "
   options << green("1")+"(#{condition_values[1]}) | "
@@ -50,89 +56,132 @@ def output_car_update_value car
   options << green("4")+"(#{condition_values[4]}) | "
   options << green("5")+"(#{condition_values[5]})"
   puts options
-
-  condition_input = gets.to_i
-  return false if condition_input == 0
-  condition = condition_values[condition_input]
-
+  input[1] = gets.to_i
+  return false if input[1] == 0
+  condition = condition_values[input[1]]
+  input[1] = condition
+  output_header()
+  output_car_menu_get_value()
+  output_car_details(car)
+  puts purple("\n#{input[0]} #{input[1]}")
   puts "\nEnter current zip-code:"
-  zip_code = gets.to_i
-  return false if zip_code == 0
+  input[2] = gets.to_i
+  return false if input[2] == 0
+  output_header()
+  output_car_menu_get_value()
+  output_car_details(car)
+  puts purple("\n#{input[0]} #{input[1]} #{input[2]}")
   puts green("\nGetting current value...")
-  current_value = car.get_current_value(current_mileage,condition,zip_code)
+  current_value = car.get_current_value(input)
   return false if current_value == "error"
-  puts "\nCurrent value is "+blue("$#{current_value}")
+  output_header()
   output_car_menu_update_value()
-  current_info = [current_value,current_mileage]
+  output_car_details(car)
+  puts purple("\n#{input[0]} #{input[1]} #{input[2]}")
+  puts "\nCurrent value is "+blue("$#{current_value}")
+
+  current_info = [current_value,input[0]]
   return current_info
 end
 
+def output_car_menu_get_value
+  menu = "\nUPDATE CAR VALUE > Enter \""
+  menu << green("0")+"\" to "
+  menu << red("CANCEL")
+  puts menu
+end
+
 def output_car_menu_update_value
-  menu = "\nUPDATE MENU > "
+  menu = "\nUPDATE CAR VALUE > "
   menu << green("1")+"(Update Current Value) | "
   menu << red("2")+"(Cancel Update)"
   puts menu
 end
 
-def output_all_cars  db
-  puts "CARS\n"
-  cars = Car.db_read(db)
+def output_all_cars  cars
+  puts "\nCARS\n"
   i = 1
   ids = [0]
   cars.each do |car|
-    puts "\t#{i}. "+yellow("#{car[1]} #{car[2]} #{car[3]}")
-    ids << car[0]
+    puts "\t#{i}. "+yellow("#{car.year} #{car.make} #{car.model}")
+    ids << car.car_id
     i += 1
   end
-  ids
+  return ids
 end
 
-def output_car_details details
-  output = ">> "+yellow("#{details[1]} #{details[2]} #{details[3]}\n\n")
-  output << "\tTrim Package:\t\t"+yellow(details[4])+"\n"
-  output << "\tPurchase Mileage:\t"+yellow(details[5].to_s)+"\n"
-  output << "\tPurchase Price:\t\t"+yellow("$"+details[6].to_s)+"\n"
-  output << "\tPurchase Date:\t\t"+yellow(details[7])+"\n"
-  output << "\tCurrent Mileage:\t"+yellow(details[9].to_s)+"\n"
-  output << "\tCurrent Value:\t\t"+yellow("$"+details[8].to_s)+"\n"
+def output_car_details car
+  output = "\n>> "+yellow("#{car.year} #{car.model} #{car.make}\n\n")
+  output << "\tTrim Package:\t\t"+yellow(car.trim)+"\n"
+  output << "\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
+  output << "\tPurchase Price:\t\t"+yellow("$"+car.purchase_price.to_s)+"\n"
+  output << "\tPurchase Date:\t\t"+yellow(car.purchase_date)+"\n"
+  output << "\tCurrent Mileage:\t"+yellow(car.current_mileage.to_s)+"\n"
+  output << "\tCurrent Value:\t\t"+yellow("$"+car.current_value.to_s)+"\n"
   puts output
+end
+
+def output_add_car_menu
+  menu = "\nADD CAR > "
+  menu << red("0")+"(Cancel)\n\n"
+  puts menu
 end
 
 def output_add_car db
   new_car = []
   new_car[0] = 0
-  puts "\nEnter vehicle year (2006):"
+  output_add_car_menu()
+  puts "\n\nEnter vehicle year (2006):"
   new_car[1] = gets.chomp
+  return false if new_car[1] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]}")
-  puts "Enter vehicle make (Volkswagen):"
+  puts "\nEnter vehicle make (Volkswagen):"
   new_car[2] = gets.chomp
+  return false if new_car[2] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]}")
-  puts "Enter vehicle model (Jetta):"
+  puts "\nEnter vehicle model (Jetta):"
   new_car[3] = gets.chomp
+  return false if new_car[3] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]}")
-  puts "Enter vehicle trim package (LX, 2.5, Quattro):"
+  puts "\nEnter vehicle trim package (LX, 2.5, Quattro):"
   new_car[4] = gets.chomp
+  return false if new_car[4] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]}")
-  puts "Enter vehicle original purchase mileage (100000):"
+  puts "\nEnter vehicle original purchase mileage (100000):"
   new_car[5] = gets.chomp
+  return false if new_car[5] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles")
-  puts "Enter vehicle original purchase price (8000.00):"
+  puts "\nEnter vehicle original purchase price (8000.00):"
   new_car[6] = gets.chomp
+  return false if new_car[6] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles, purchased for $#{new_car[6]}")
-  puts "Enter vehicle original purchase date (mm/dd/yyyy):"
+  puts "\nEnter vehicle original purchase date (mm/dd/yyyy):"
   new_car[7] = gets.chomp
+  return false if new_car[7] == "0"
   output_header()
+  output_add_car_menu()
   puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles, purchased for $#{new_car[6]} on $#{new_car[7]}")
-  puts "Car entered successfully!"
   new_car[8] = 0
   new_car[9] = 0
   new_car = Car.new(new_car)
+  puts "\nSave Car: "+green("1")+"(YES) "+red("2")+"(NO)"
+  confirm = 0
+  until confirm == 1
+      confirm = gets.to_i
+      return false if confirm == 2
+  end
   new_car.db_create(db)
 end
 

@@ -20,27 +20,24 @@ until command_1.to_i == 5
 
   case command_1
   when 1
-    ids = output_all_cars(db)
-    output_all_cars_menu(ids.length-1)
-
+    cars = Car.db_read(db)
+    output_all_cars_menu(cars.length)
+    ids = output_all_cars(cars)
     command_2 = gets.to_i
+    car_id = ids[command_2.to_i]
     if command_2.to_i > 0
       command_3 = ""
       until command_3 == 0
         output_header()
-        details = Car.db_read(db,ids[command_2.to_i])[0]
-        current_car = Car.new(details)
-        output_car_details(details)
         output_car_menu()
-
+        current_car = Car.db_read(db,car_id)[0]
+        output_car_details(current_car)
         command_3 = gets.to_i
         case command_3
         when 1
           output_header()
-          output_car_details(details)
           current_info = output_car_update_value(current_car)
           if current_info
-
             command_4 = gets.to_i
             if command_4 == 1
               current_car.current_value = current_info[0]
