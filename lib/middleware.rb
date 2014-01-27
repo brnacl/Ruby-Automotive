@@ -1,5 +1,5 @@
-require_relative 'car.rb'
-require_relative 'project.rb'
+require_relative '../models/car.rb'
+require_relative '../models/project.rb'
 
 def output_clear
   puts "\e[H\e[2J"
@@ -26,7 +26,13 @@ def output_all_cars_menu num_cars
   menu << green("0")+"(Main Menu) | "
   menu << green("1..#{num_cars}")+"(Select Car)"
   puts menu
+end
 
+def output_all_projects_cars_menu num_cars
+  menu = "\nPROJECTS MENU > "
+  menu << green("0")+"(Main Menu) | "
+  menu << green("1..#{num_cars}")+"(Select Car)"
+  puts menu
 end
 
 def output_car_menu
@@ -34,6 +40,68 @@ def output_car_menu
   menu << green("0")+"(Main Menu) | "
   menu << green("1")+"(Update Current Value) | "
   menu << red("2")+"(Delete Car)"
+  puts menu
+end
+
+def output_car_menu_get_value
+  menu = "\nUPDATE CAR VALUE > Enter \""
+  menu << green("0")+"\" to "
+  menu << red("CANCEL")
+  puts menu
+end
+
+def output_car_menu_update_value
+  menu = "\nUPDATE CAR VALUE > "
+  menu << green("1")+"(Update Current Value) | "
+  menu << red("2")+"(Cancel Update)"
+  puts menu
+end
+
+def output_car_header car
+  header = "\nCar: " + green("#{car.year} #{car.make} #{car.model}")
+  return header
+end
+
+def output_project_menu
+  menu = "\nPROJECT MENU > "
+  menu << green("0")+"(Main Menu) | "
+  menu << green("1")+"(Show Project Parts) | "
+  menu << red("2")+"(Delete Project)"
+  puts menu
+end
+
+def output_project_details car,project
+  puts output_car_header(car)
+  output = "\n\tProject:\t"+yellow(project.title)+"\n\n"
+  output << "\tDescription:\t"+yellow(project.description)+"\n\n"
+  output << "\tMileage:\t"+yellow(project.mileage)+"\n\n"
+  output << "\tStart Date:\t"+yellow(project.start_date)+"\n\n"
+  puts output
+end
+
+def output_all_cars cars
+  puts "\nCARS\n"
+  i = 1
+  cars.each do |car|
+    puts "\t#{i}. "+yellow("#{car.year} #{car.make} #{car.model}")
+    i += 1
+  end
+end
+
+def output_car_details car
+  puts output_car_header(car)
+  output = "\tTrim Package:\t\t"+yellow(car.trim)+"\n"
+  output << "\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
+  output << "\tPurchase Price:\t\t"+yellow("$"+car.purchase_price.to_s)+"\n"
+  output << "\tPurchase Date:\t\t"+yellow(car.purchase_date)+"\n"
+  output << "\tCurrent Mileage:\t"+yellow(car.current_mileage.to_s)+"\n"
+  output << "\tCurrent Value:\t\t"+yellow("$"+car.current_value.to_s)+"\n"
+  puts output
+end
+
+def output_add_car_menu
+  menu = "\nADD CAR > "
+  menu << red("0")+"(Cancel)\n\n"
   puts menu
 end
 
@@ -84,50 +152,9 @@ def output_car_update_value car
   return current_info
 end
 
-def output_car_menu_get_value
-  menu = "\nUPDATE CAR VALUE > Enter \""
-  menu << green("0")+"\" to "
-  menu << red("CANCEL")
-  puts menu
-end
-
-def output_car_menu_update_value
-  menu = "\nUPDATE CAR VALUE > "
-  menu << green("1")+"(Update Current Value) | "
-  menu << red("2")+"(Cancel Update)"
-  puts menu
-end
-
-def output_all_cars  cars
-  puts "\nCARS\n"
-  i = 1
-  ids = [0]
-  cars.each do |car|
-    puts "\t#{i}. "+yellow("#{car.year} #{car.make} #{car.model}")
-    ids << car.car_id
-    i += 1
-  end
-  return ids
-end
-
-def output_car_details car
-  output = "\n>> "+yellow("#{car.year} #{car.model} #{car.make}\n\n")
-  output << "\tTrim Package:\t\t"+yellow(car.trim)+"\n"
-  output << "\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
-  output << "\tPurchase Price:\t\t"+yellow("$"+car.purchase_price.to_s)+"\n"
-  output << "\tPurchase Date:\t\t"+yellow(car.purchase_date)+"\n"
-  output << "\tCurrent Mileage:\t"+yellow(car.current_mileage.to_s)+"\n"
-  output << "\tCurrent Value:\t\t"+yellow("$"+car.current_value.to_s)+"\n"
-  puts output
-end
-
-def output_add_car_menu
-  menu = "\nADD CAR > "
-  menu << red("0")+"(Cancel)\n\n"
-  puts menu
-end
 
 def output_add_car db
+  car_info = ""
   new_car = []
   new_car[0] = 0
   output_add_car_menu()
@@ -136,100 +163,102 @@ def output_add_car db
   return false if new_car[1] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]}")
+  puts purple(car_info << "#{new_car[1]}\s")
   puts "\nEnter vehicle make (Volkswagen):"
   new_car[2] = gets.chomp
   return false if new_car[2] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]}")
+  puts purple(car_info << "#{new_car[2]}\s")
   puts "\nEnter vehicle model (Jetta):"
   new_car[3] = gets.chomp
   return false if new_car[3] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]}")
+  puts purple(car_info << "#{new_car[3]}\s")
   puts "\nEnter vehicle trim package (LX, 2.5, Quattro):"
   new_car[4] = gets.chomp
   return false if new_car[4] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]}")
+  puts purple(car_info << "#{new_car[4]}\s")
   puts "\nEnter vehicle original purchase mileage (100000):"
   new_car[5] = gets.chomp
   return false if new_car[5] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles")
+  puts purple(car_info << "with #{new_car[5]} miles\s")
   puts "\nEnter vehicle original purchase price (8000.00):"
   new_car[6] = gets.chomp
   return false if new_car[6] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles, purchased for $#{new_car[6]}")
+  puts purple(car_info << "purchased for $#{new_car[6]}\s")
   puts "\nEnter vehicle original purchase date (mm/dd/yyyy):"
   new_car[7] = gets.chomp
   return false if new_car[7] == "0"
   output_header()
   output_add_car_menu()
-  puts purple("#{new_car[1]} #{new_car[2]} #{new_car[3]} #{new_car[4]} with #{new_car[5]} miles, purchased for $#{new_car[6]} on $#{new_car[7]}")
+  puts purple(car_info << "on #{new_car[7]}\s")
   new_car[8] = 0
   new_car[9] = 0
-  new_car = Car.new(new_car)
+  data = []
+  Car.attributes.each do |a|
+    data << [a, new_car[Car.attributes.index(a)]]
+  end
+  new_car = Car.new(Hash[data])
   puts "\nSave Car: "+green("1")+"(YES) "+red("2")+"(NO)"
   confirm = 0
   until confirm == 1
       confirm = gets.to_i
       return false if confirm == 2
   end
-  new_car.db_create(db)
+  new_car.create(db)
 end
 
-def output_car_confirm_delete
-  puts red("\nDELETE THIS CAR:") + "Are you sure?"
+def output_confirm_delete
+  puts red("\nDELETE:") + "Are you sure?"
   puts green("1")+"(Cancel) | "+ red("9")+"(DELETE)"
   confirm = gets.to_i
   return true if confirm == 9
   return false if confirm == 1
 end
 
-def output_all_projects  db
+def output_car_projects car,projects
+  puts green("\n#{car.year} #{car.make} #{car.model}\n\n")
   puts "PROJECTS\n"
-  projects = Project.db_read(db)
   i = 1
-  ids = [0]
   projects.each do |project|
-    puts "\t#{i}. "+yellow("#{project[0]} #{project[1]} #{project[2]}, #{project[3]}, #{project[4]}")
-    ids << project[0]
+    puts "\t#{i}. "+yellow("#{project.title} #{project.start_date}")
     i += 1
   end
-  ids
 end
 
 def output_all_projects_menu num_projects
-  menu = "\nCARS MENU > "
+  menu = "\nPROJECTS MENU > "
+  menu << green("0")+"(Main Menu) | "
+  menu << green("1..#{num_projects}")+"(Select Project)"
+  puts menu
+end
+
+def output_car_projects_menu num_projects
+  menu = "\nPROJECTS MENU > "
   menu << green("0")+"(Main Menu) | "
   menu << green("1..#{num_projects}")+"(Select Project)"
   puts menu
 end
 
 def output_add_project_cars db
-  puts "ADD PROJECT - SELECT CAR\n"
+  puts "ADD PROJECT - SELECT CAR\n\n"
   cars = Car.db_read(db)
   i = 1
   ids = [0]
   cars.each do |car|
-    puts "\t#{i}. "+yellow("#{car[1]} #{car[2]} #{car[3]}")
-    ids << car[0]
+    puts "\t#{i}. " + yellow("#{car.year} #{car.make} #{car.model}")
+    ids << car.car_id
     i += 1
   end
   ids
-end
-
-def output_add_project_car_header db,car_id
-  car = Car.db_read(db,car_id)[0]
-  header = "Car: " + green("#{car[1]} #{car[2]} #{car[3]}")
-  return header
 end
 
 def output_add_project db,car_id,header
