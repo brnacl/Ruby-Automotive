@@ -11,35 +11,27 @@ def output_header
   puts blue("========================")
 end
 
-def output_main_menu
+def output_main_menu num_cars
   menu = "\nMAIN MENU > "
-  menu << green("1")+"(Show Cars) | "
-  menu << green("2")+"(Show Projects) | "
-  menu << green("3")+"(Add Car) | "
-  menu << green("4")+"(Add Project) | "
-  menu << red("5")+"(Exit)"
-  puts menu
-end
-
-def output_all_cars_menu num_cars
-  menu = "\nCARS MENU > "
-  menu << green("0")+"(Main Menu) | "
-  menu << green("1..#{num_cars}")+"(Select Car)"
+  menu << green("1..#{num_cars}")+"(Select Car) "
+  menu << green("+")+"(Add New Car) "
+  menu << red("0")+"(Exit)"
   puts menu
 end
 
 def output_all_projects_cars_menu num_cars
   menu = "\nPROJECTS MENU > "
-  menu << green("0")+"(Main Menu) | "
+  menu << green("0")+"(Main Menu) "
   menu << green("1..#{num_cars}")+"(Select Car)"
   puts menu
 end
 
 def output_car_menu
   menu = "\nCAR MENU > "
-  menu << green("0")+"(Main Menu) | "
-  menu << green("1")+"(Update Current Value) | "
-  menu << red("2")+"(Delete Car)"
+  menu << green("0")+"(Main Menu) "
+  menu << green("1")+"(Get Current Value) "
+  menu << green("2")+"(Show Projects) "
+  menu << red("3")+"(Delete Car)"
   puts menu
 end
 
@@ -224,13 +216,25 @@ def output_confirm_delete
   return false if confirm == 1
 end
 
-def output_car_projects car,projects
-  puts green("\n#{car.year} #{car.make} #{car.model}\n\n")
-  puts "PROJECTS\n"
-  i = 1
-  projects.each do |project|
-    puts "\t#{i}. "+yellow("#{project.title} #{project.start_date}")
-    i += 1
+def output_car_projects car, projects
+  menu = "\nPROJECTS MENU > "
+  menu << green("0")+"(Main Menu) "
+  menu << green("1..#{projects.length}")+"(Select Project) " if projects.length > 0
+  menu << green("+") + "(Add Project)"
+  puts menu
+
+  puts green("\n#{car.year} #{car.make} #{car.model}\n")
+
+  if projects.length > 0
+    puts "PROJECTS\n"
+    i = 1
+    projects.each do |project|
+      puts "\t#{i}. "+yellow("#{project.title} #{project.start_date}")
+      i += 1
+    end
+  else
+    puts red("NO PROJECTS")
+
   end
 end
 
@@ -242,10 +246,7 @@ def output_all_projects_menu num_projects
 end
 
 def output_car_projects_menu num_projects
-  menu = "\nPROJECTS MENU > "
-  menu << green("0")+"(Main Menu) | "
-  menu << green("1..#{num_projects}")+"(Select Project)"
-  puts menu
+
 end
 
 def output_add_project_cars db
@@ -261,34 +262,45 @@ def output_add_project_cars db
   ids
 end
 
-def output_add_project db,car_id,header
-  puts header
+def output_add_project car,car_info_header
+  puts car_info_header
   new_project = []
   new_project[0] = 0
-  new_project[1] = car_id
+  new_project[1] = car.car_id
   puts "\nEnter a title for this new project..."
   new_project[2] = gets.chomp
   sub_header_title = "Project: #{green(new_project[2])}"
   output_header()
-  puts header
+  puts car_info_header
   puts sub_header_title
   puts "\nEnter a description:"
   new_project[3] = gets.chomp
   sub_header_description = "Description: #{green(new_project[3])}"
   output_header()
-  puts header
+  puts car_info_header
   puts sub_header_title
   puts sub_header_description
-  puts "\nEnter current vehicle mileage..."
+  puts "\nEnter vehicle mileage..."
   new_project[4] = gets.chomp
   sub_header_mileage = "Mileage: #{green(new_project[4])}"
   output_header()
-  puts header
+  puts car_info_header
   puts sub_header_title
   puts sub_header_description
   puts sub_header_mileage
   puts "\nEnter the start date for the project..."
   new_project[5] = gets.chomp
-  new_project = Project.new(new_project)
-  new_project.db_create(db)
+
+  data = []
+  Project.attributes.each do |a|
+    data << [a, new_project[Project.attributes.index(a)]]
+  end
+  new_project = Project.new(Hash[data])
+  puts "\nSave Project: "+green("1")+"(YES) "+red("2")+"(NO)"
+  confirm = 0
+  until confirm == 1
+      confirm = gets.to_i
+      return false if confirm == 2
+  end
+  return new_project
 end
