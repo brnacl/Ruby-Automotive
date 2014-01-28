@@ -3,8 +3,8 @@ def header_project project
 end
 
 def header_add_project car,sub_header
-  header_main()
-  menu_add_project()
+  header_main
+  menu_add_project
   header_car(car)
   puts sub_header
 end
@@ -33,7 +33,7 @@ end
 
 
 def show_projects car, projects
-  header_main()
+  header_main
   menu_projects(projects.length)
   header_car(car)
   if projects.length > 0
@@ -49,8 +49,8 @@ def show_projects car, projects
 end
 
 def show_project car,project,num_parts
-  header_main()
-  menu_project()
+  header_main
+  menu_project
   header_car(car)
   header_project(project)
   details = "\n\tDescription:\t#{yellow(project.description)}\n"

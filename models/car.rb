@@ -2,8 +2,6 @@ require 'edmunds_ruby'
 require 'net/http'
 require 'json'
 
-require_relative 'project.rb'
-
 class Car
   attr_accessor :car_id, :year, :make, :model, :trim, :purchase_mileage, :purchase_price, :purchase_date, :current_value, :current_mileage
 
@@ -51,7 +49,8 @@ class Car
     end
   end
 
-  def create db
+  def create
+    db = Environment.database_connection
     begin
       statement = "INSERT INTO Cars "
       statement << "(CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) "
@@ -64,7 +63,8 @@ class Car
   end
 
 
-  def self.find db
+  def self.find
+    db = Environment.database_connection
     output = []
     begin
       statement = "SELECT * FROM Cars"
@@ -82,7 +82,8 @@ class Car
     end
   end
 
-  def update db
+  def update
+    db = Environment.database_connection
     begin
       statement = "UPDATE Cars SET "
       statement << "CarYear='#{year}', "
@@ -102,7 +103,8 @@ class Car
     end
   end
 
-  def delete db
+  def delete
+    db = Environment.database_connection
     begin
       statement = "DELETE FROM Cars WHERE CarID='#{car_id}'; "
       statement << "DELETE FROM Projects WHERE CarID='#{car_id}'; "
@@ -114,7 +116,8 @@ class Car
     end
   end
 
-  def projects db
+  def projects
+    db = Environment.database_connection
     output = []
     begin
       statement = "SELECT * FROM Projects p "

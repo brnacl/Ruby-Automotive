@@ -1,15 +1,19 @@
-require 'sqlite3'
+#!/usr/bin/env ruby
+
+require_relative 'lib/environment'
 
 Dir["lib/*.rb"].each {|file| require_relative file }
 Dir["models/*.rb"].each {|file| require_relative file }
 
-db = SQLite3::Database.new "db/ruby_auto.sqlite"
+Environment.environment = "production"
+db = Environment.database_connection
 
 command = ""
 until command == "0"
-  cars = Car.find(db)
+  cars = Car.find
   show_cars(cars)
+  logic = Logic.new(cars: cars)
   command = gets.chomp
-  logic_main(db,cars,command)
+  logic.logic_main(command)
 end
-output_clear()
+clear_screen

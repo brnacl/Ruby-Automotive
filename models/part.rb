@@ -11,7 +11,8 @@ class Part
     end
   end
 
-  def self.find db
+  def self.find
+    db = Environment.database_connection
     output = []
     begin
       statement = "SELECT * FROM Parts"
@@ -29,7 +30,8 @@ class Part
     end
   end
 
-  def create db
+  def create
+    db = Environment.database_connection
     begin
       statement = "INSERT INTO Parts "
       statement << "(CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) "
@@ -41,7 +43,8 @@ class Part
     end
   end
 
-  def update db
+  def update
+    db = Environment.database_connection
     begin
       statement = "UPDATE Parts SET "
       statement << "CarID='#{car_id}', "
@@ -62,7 +65,8 @@ class Part
     end
   end
 
-   def delete db
+   def delete
+    db = Environment.database_connection
     begin
       statement = "DELETE FROM Parts WHERE PartID='#{part_id}';"
       db.execute(statement)

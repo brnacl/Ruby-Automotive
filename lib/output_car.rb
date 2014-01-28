@@ -3,14 +3,14 @@ def header_car car
 end
 
 def header_add_car sub_header
-  header_main()
-  menu_add_car()
+  header_main
+  menu_add_car
   puts purple(sub_header)
 end
 
 def header_car_value car,sub_header
-  header_main()
-  menu_car_value()
+  header_main
+  menu_car_value
   header_car(car)
   puts purple(sub_header)
 end
@@ -53,7 +53,7 @@ def menu_car_value_save
 end
 
 def show_cars cars
-  header_main()
+  header_main
   menu_cars(cars.length)
   if cars.length > 0
     puts "\nCARS\n"
@@ -68,8 +68,8 @@ def show_cars cars
 end
 
 def show_car car
-  header_main()
-  menu_car()
+  header_main
+  menu_car
   header_car(car)
   details = "\n\tTrim Package:\t\t"+yellow(car.trim)+"\n"
   details << "\n\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
@@ -171,5 +171,5 @@ def add_car
       confirm = gets.to_i
       return false if confirm == 2
   end
-  return new_car
+  new_car
 end

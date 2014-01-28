@@ -11,7 +11,8 @@ class Project
     end
   end
 
-  def self.find db
+  def self.find
+    db = Environment.database_connection
     output = []
     begin
       statement = "SELECT * FROM Projects"
@@ -29,7 +30,8 @@ class Project
     end
   end
 
-  def create db
+  def create
+    db = Environment.database_connection
     begin
       statement = "INSERT INTO Projects "
       statement << "(CarID, Title, Description, Mileage, StartDate) "
@@ -41,7 +43,8 @@ class Project
     end
   end
 
-  def update db
+  def update
+    db = Environment.database_connection
     begin
       statement = "UPDATE Projects SET "
       statement << "CarID='#{car_id}', "
@@ -58,7 +61,8 @@ class Project
     end
   end
 
-   def delete db
+   def delete
+    db = Environment.database_connection
     begin
       statement = "DELETE FROM Projects WHERE ProjectID='#{project_id}'; "
       statement << "DELETE FROM Parts WHERE ProjectID='#{project_id}';"
@@ -69,7 +73,8 @@ class Project
     end
   end
 
-  def parts db
+  def parts
+    db = Environment.database_connection
     output = []
     begin
       statement = "SELECT * FROM Parts p "

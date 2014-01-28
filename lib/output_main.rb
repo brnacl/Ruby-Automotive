@@ -3,7 +3,7 @@ def clear_screen
 end
 
 def header_main
-  clear_screen()
+  clear_screen
   puts blue("RUBY AUTO REPAIR TRACKER")
   puts blue("========================")
 end

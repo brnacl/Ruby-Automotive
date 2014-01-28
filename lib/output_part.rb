@@ -3,8 +3,8 @@ def header_part part
 end
 
 def header_add_part car,project,sub_header
-  header_main()
-  menu_add_part()
+  header_main
+  menu_add_part
   header_car(car)
   header_project(project)
   puts purple(sub_header)
@@ -32,7 +32,7 @@ def menu_add_part
 end
 
 def show_parts car, project, parts
-  header_main()
+  header_main
   menu_parts(parts.length)
   header_car(car)
   header_project(project)
@@ -49,8 +49,8 @@ def show_parts car, project, parts
 end
 
 def show_part car,project,part
-  header_main()
-  menu_part()
+  header_main
+  menu_part
   header_car(car)
   header_project(project)
   details = "\n\tPart:\t"+yellow(part.name)+"\n\n"
@@ -114,5 +114,5 @@ def add_part car,project
       confirm = gets.to_i
       return false if confirm == 2
   end
-  return new_part
+  new_part
 end
