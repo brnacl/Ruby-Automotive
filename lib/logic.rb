@@ -87,10 +87,10 @@ def logic_project_parts db,car,project,parts
     show_parts(car,project,parts)
     command = gets.chomp
     if command.to_i > 0
-      part = parts[command_5.to_i - 1]
+      part = parts[command.to_i - 1]
       logic_show_part(db,car,project,part)
     elsif command == "+"
-      output_header()
+      header_main()
       new_part = add_part(car,project)
       if new_part
         new_part.create(db)

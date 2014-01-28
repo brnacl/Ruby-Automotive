@@ -37,7 +37,7 @@ def show_parts car, project, parts
   header_car(car)
   header_project(project)
   if parts.length > 0
-    puts "PARTS\n"
+    puts "\nPARTS:\n"
     i = 1
     parts.each do |part|
       puts "\t#{i}. "+yellow("#{part.name}, #{part.manufacturer}")
@@ -50,6 +50,7 @@ end
 
 def show_part car,project,part
   header_main()
+  menu_part()
   header_car(car)
   header_project(project)
   details = "\n\tPart:\t"+yellow(part.name)+"\n\n"
