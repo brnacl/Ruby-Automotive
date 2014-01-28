@@ -1,5 +1,3 @@
-# require_relative '../models/car.rb'
-
 def header_car car
   puts "\nCAR: " + green("#{car.year} #{car.make} #{car.model}")
 end

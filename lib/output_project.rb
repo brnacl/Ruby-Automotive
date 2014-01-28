@@ -1,5 +1,3 @@
-# require_relative '../models/project.rb'
-
 def header_project project
   puts "\nPROJECT: " + green("#{project.title}, #{project.start_date}, #{project.mileage}")
 end
@@ -99,4 +97,3 @@ def add_project car
   end
   new_project
 end
-
