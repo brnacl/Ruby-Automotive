@@ -52,7 +52,40 @@ until command_1 == "0"
               command_4 = gets.to_i
               case command_4
               when 1
-                puts "Showing Parts"
+                parts = current_project.parts(db)
+                command_5 = ""
+                until command_5 == "0"
+                  output_header()
+                  output_project_parts(current_car,current_project,parts)
+                  command_5 = gets.chomp
+                  if command_5.to_i > 0
+                    current_part = parts[command_5.to_i - 1]
+                    command_6 = ""
+                    until command_6 == 0
+                      output_header()
+                      output_part_menu()
+                      output_part_details(current_car,current_project,current_part)
+                      command_6 = gets.to_i
+                      case command_6
+                      when 1
+                        if output_confirm_delete()
+                          current_part.delete(db)
+                          parts = current_project.parts(db)
+                          command_6 = 0
+                        end
+                      end
+                    end
+                  elsif command_5 == "+"
+                    output_header()
+                    new_part = output_add_part(current_car,current_project)
+                    if new_part
+                      new_part.create(db)
+                      parts = current_project.parts(db)
+                    end
+                  end
+
+
+                end
               when 2
                 if output_confirm_delete()
                   current_project.delete(db)
@@ -80,67 +113,11 @@ until command_1 == "0"
     end
   elsif command_1 == "+"
     output_header()
-    output_add_car(db)
+    new_car = output_add_car()
+    if new_car
+      new_car.create(db)
+      cars = Car.find(db)
+    end
   end
 end
 output_clear()
-
-  # end
-
-  # when 2
-  #   cars = Car.find(db)
-  #   output_all_projects_cars_menu(cars.length)
-  #   output_all_cars(cars)
-  #   command_2 = gets.to_i
-  #   if command_2 > 0
-  #     current_car = cars[command_2 - 1]
-  #     projects = current_car.projects(db)
-  #     command_3 = ""
-  #     until command_3 == 0
-  #       output_header()
-  #       output_car_projects_menu(projects.length)
-  #       output_car_projects(current_car,projects)
-  #       command_3 = gets.to_i
-  #       if command_3 > 0
-  #         current_project = projects[command_3 - 1]
-  #         command_4 = ""
-  #         until command_4 == 0
-  #           output_header()
-  #           output_project_menu()
-  #           output_project_details(current_car,current_project)
-  #           command_4 = gets.to_i
-  #           case command_4
-  #           when 1
-  #             puts "Showing Parts"
-  #           when 2
-  #             if output_confirm_delete()
-  #               current_project.delete(db)
-  #               projects = current_car.projects(db)
-  #               command_4 = 0
-  #             end
-  #           end
-  #         end
-  #       end
-  #     end
-  #     output_header()
-  #   end
-  # when 3
-  #   output_add_car(db)
-  # when 4
-  #   ids = output_add_project_cars(db)
-  #   output_all_cars_menu(ids.length-1)
-
-  #   selection = gets.to_i
-  #   if selection > 0 && selection < ids.length
-  #     output_header()
-  #     car_id = ids[selection]
-  #     header = output_car_header(car)
-  #     output_add_project(car,header)
-  #   end
-  # when 5
-  #   output_clear()
-  #   break
-  # else
-  #   puts red("Error: Invalid Command!")
-  # end
-# end

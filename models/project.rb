@@ -14,7 +14,8 @@ class Project
   def self.find db
     output = []
     begin
-      db.execute( "SELECT * FROM Projects") do |row|
+      statement = "SELECT * FROM Projects"
+      db.execute(statement) do |row|
         data = []
         Project.attributes.each do |a|
           data << [a, row[Project.attributes.index(a)]]
@@ -65,6 +66,26 @@ class Project
       return "Success"
     rescue Exception=>e
       return "An error has occured: #{e}"
+    end
+  end
+
+  def parts db
+    output = []
+    begin
+      statement = "SELECT * FROM Parts p "
+      statement << "INNER JOIN Projects proj ON p.ProjectID = proj.ProjectID "
+      statement << "WHERE p.ProjectID = '#{project_id}'"
+      db.execute(statement) do |row|
+        data = []
+        Part.attributes.each do |a|
+          data << [a, row[Part.attributes.index(a)]]
+        end
+        part = Part.new(Hash[data])
+        output << part
+      end
+      output
+    rescue Exception=>e
+      "Error: #{e}"
     end
   end
 

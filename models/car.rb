@@ -67,7 +67,8 @@ class Car
   def self.find db
     output = []
     begin
-      db.execute( "SELECT * FROM Cars") do |row|
+      statement = "SELECT * FROM Cars"
+      db.execute(statement) do |row|
         data = []
         Car.attributes.each do |a|
           data << [a, row[Car.attributes.index(a)]]
@@ -115,11 +116,22 @@ class Car
 
   def projects db
     output = []
-    all_projects = Project.find(db)
-    all_projects.each do |project|
-      output << project if project.car_id == car_id
+    begin
+      statement = "SELECT * FROM Projects p "
+      statement << "INNER JOIN Cars c ON c.CarID = p.CarID "
+      statement << "WHERE p.CarID = '#{car_id}'"
+      db.execute(statement) do |row|
+        data = []
+        Project.attributes.each do |a|
+          data << [a, row[Project.attributes.index(a)]]
+        end
+        project = Project.new(Hash[data])
+        output << project
+      end
+      output
+    rescue Exception=>e
+      "Error: #{e}"
     end
-    output
   end
 
   def self.attributes
