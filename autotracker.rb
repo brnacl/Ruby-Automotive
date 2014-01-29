@@ -10,7 +10,7 @@ db = Environment.database_connection
 
 command = ""
 until command == "0"
-  cars = Car.find
+  cars = Car.all
   show_cars(cars)
   logic = Logic.new(cars: cars)
   command = gets.chomp

@@ -26,7 +26,7 @@ task :test_prepare do
 end
 
 def create_tables(database_connection)
-  database_connection.execute("CREATE TABLE Cars (CarID INTEGER PRIMARY KEY  NOT NULL ,CarYear INTEGER,CarMake VARCHAR,CarModel VARCHAR,CarTrim VARCHAR,PurchaseMileage INTEGER,PurchasePrice INTEGER,DateOfPurchase DATETIME,CurrentValue INTEGER,CurrentMileage INTEGER)")
-  database_connection.execute("CREATE TABLE Projects (ProjectID INTEGER PRIMARY KEY  NOT NULL ,CarID INTEGER,Title VARCHAR,Description TEXT,Mileage INTEGER,StartDate DATETIME)")
-  database_connection.execute("CREATE TABLE Parts (PartID INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , CarID INTEGER  NOT NULL, ProjectID INTEGER  NOT NULL, Name VARCHAR, ReplacementDate DATETIME, Description TEXT, Manufacturer VARCHAR, ModelNumber VARCHAR, Vendor VARCHAR, PurchasePrice INTEGER, Warranty BOOL)")
+  database_connection.execute("CREATE TABLE Cars (ID INTEGER PRIMARY KEY  NOT NULL ,Year INTEGER,Make VARCHAR,Model VARCHAR,Trim VARCHAR,PurchaseMileage INTEGER,PurchasePrice INTEGER,PurchaseDate DATETIME,CurrentValue INTEGER,CurrentMileage INTEGER)")
+  database_connection.execute("CREATE TABLE Projects (ID INTEGER PRIMARY KEY  NOT NULL ,CarID INTEGER,Title VARCHAR,Description TEXT,Mileage INTEGER,StartDate DATETIME)")
+  database_connection.execute("CREATE TABLE Parts (ID INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL  UNIQUE , CarID INTEGER  NOT NULL, ProjectID INTEGER  NOT NULL, Name VARCHAR, ReplacementDate DATETIME, Description TEXT, Manufacturer VARCHAR, ModelNumber VARCHAR, Vendor VARCHAR, PurchasePrice INTEGER, Warranty BOOL)")
 end

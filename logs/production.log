@@ -30,3 +30,9 @@ I, [2014-01-28T17:02:49.793680 #742]  INFO -- : Executing: SELECT * FROM Parts p
 I, [2014-01-28T17:03:39.059191 #742]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '3', 'Gasoline', '01/29/2014', 'Flamey time', 'Exxon', '12345', 'Tiger Market', '3.04', 'false')
 I, [2014-01-28T17:03:39.064245 #742]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON p.ProjectID = proj.ProjectID WHERE p.ProjectID = '3'
 I, [2014-01-28T17:03:55.470160 #742]  INFO -- : Executing: SELECT * FROM Cars
+I, [2014-01-29T10:52:26.426505 #949]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
+I, [2014-01-29T10:54:24.681309 #954]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
+I, [2014-01-29T10:54:35.899278 #958]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
+I, [2014-01-29T10:55:16.294556 #962]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
+I, [2014-01-29T10:55:40.596298 #966]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
+I, [2014-01-29T10:56:37.168470 #970]  INFO -- : Executing: SELECT Cars.* from Cars WHERE CarModel LIKE '%%' ORDER BY CarMake ASC
