@@ -91,7 +91,7 @@ class Car
     db = Environment.database_connection
     begin
       statement = "DELETE FROM Cars WHERE ID='#{id}'; "
-      statement = "DELETE FROM Projects WHERE CarID='#{id}'; "
+      statement << "DELETE FROM Projects WHERE CarID='#{id}'; "
       statement << "DELETE FROM Parts WHERE CarID='#{id}'"
       db.execute(statement)
     rescue Exception=>e

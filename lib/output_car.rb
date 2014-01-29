@@ -63,7 +63,7 @@ def show_cars cars
       i += 1
     end
   else
-    puts red("NO CARS")
+    puts red("\nNO CARS FOUND")
   end
 end
 
@@ -73,10 +73,10 @@ def show_car car
   header_car(car)
   details = "\n\tTrim Package:\t\t"+yellow(car.trim)+"\n"
   details << "\n\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
-  details << "\n\tPurchase Price:\t\t"+yellow("$"+car.purchase_price.to_s)+"\n"
+  details << "\n\tPurchase Price:\t\t"+yellow("$"+car.purchase_price)+"\n"
   details << "\n\tPurchase Date:\t\t"+yellow(car.purchase_date)+"\n"
   details << "\n\tCurrent Mileage:\t"+yellow(car.current_mileage.to_s)+"\n"
-  details << "\n\tCurrent Value:\t\t"+yellow("$"+car.current_value.to_s)+"\n"
+  details << "\n\tCurrent Value:\t\t"+yellow("$"+car.current_value)+"\n"
   puts details
 end
 
@@ -110,7 +110,7 @@ def get_car_value car
   header_car_value(car,sub_header)
   puts green("\nGetting current value...")
   current_value = car.get_current_value(input)
-  return false if current_value == "error"
+  return false if current_value == 0
   header_car_value(car,sub_header)
   puts "\nCurrent value is "+blue("$#{current_value}")
   current_info = [current_value,input[0]]
@@ -122,54 +122,47 @@ def add_car
   sub_header = ""
   header_add_car(sub_header)
   new_car = []
-  new_car[0] = 0
   puts "\nEnter vehicle year (2006):"
+  new_car[0] = gets.chomp
+  return false if new_car[0] == "0"
+  sub_header << "#{new_car[0]}\s"
+  header_add_car(sub_header)
+  puts "\nEnter vehicle make (Volkswagen):"
   new_car[1] = gets.chomp
   return false if new_car[1] == "0"
   sub_header << "#{new_car[1]}\s"
   header_add_car(sub_header)
-  puts "\nEnter vehicle make (Volkswagen):"
+  puts "\nEnter vehicle model (Jetta):"
   new_car[2] = gets.chomp
   return false if new_car[2] == "0"
   sub_header << "#{new_car[2]}\s"
   header_add_car(sub_header)
-  puts "\nEnter vehicle model (Jetta):"
+  puts "\nEnter vehicle trim package (LX, 2.5, Quattro):"
   new_car[3] = gets.chomp
   return false if new_car[3] == "0"
   sub_header << "#{new_car[3]}\s"
   header_add_car(sub_header)
-  puts "\nEnter vehicle trim package (LX, 2.5, Quattro):"
+  puts "\nEnter vehicle original purchase mileage (100000):"
   new_car[4] = gets.chomp
   return false if new_car[4] == "0"
-  sub_header << "#{new_car[4]}\s"
-  header_add_car(sub_header)
-  puts "\nEnter vehicle original purchase mileage (100000):"
-  new_car[5] = gets.chomp
-  return false if new_car[5] == "0"
-  sub_header << "with #{new_car[5]} miles\s"
+  sub_header << "with #{new_car[4]} miles\s"
   header_add_car(sub_header)
   puts "\nEnter vehicle original purchase price (8000.00):"
-  new_car[6] = gets.chomp
-  return false if new_car[6] == "0"
-  sub_header << "purchased for $#{new_car[6]}\s"
+  new_car[5] = gets.chomp
+  return false if new_car[5] == "0"
+  sub_header << "purchased for $#{new_car[5]}\s"
   header_add_car(sub_header)
   puts "\nEnter vehicle original purchase date (mm/dd/yyyy):"
-  new_car[7] = gets.chomp
-  return false if new_car[7] == "0"
-  sub_header << "on #{new_car[7]}\s"
+  new_car[6] = gets.chomp
+  return false if new_car[6] == "0"
+  sub_header << "on #{new_car[6]}\s"
   header_add_car(sub_header)
-  new_car[8] = 0
-  new_car[9] = 0
-  data = []
-  Car.attributes.each do |a|
-    data << [a, new_car[Car.attributes.index(a)]]
-  end
-  new_car = Car.new(Hash[data])
+  car = Car.new(year: new_car[0], make: new_car[1], model: new_car[2], trim: new_car[3], purchase_mileage: new_car[4], purchase_price: new_car[5], purchase_date: new_car[6])
   puts "\nSave Car: "+green("1")+"(YES) "+red("2")+"(NO)"
   confirm = 0
   until confirm == 1
       confirm = gets.to_i
       return false if confirm == 2
   end
-  new_car
+  car
 end

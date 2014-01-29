@@ -1,0 +1,1084 @@
+# Logfile created on 2014-01-29 09:42:10 -0600 by logger.rb/41954
+I, [2014-01-29T09:42:10.584795 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.585879 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.586269 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.586637 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.586986 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.587336 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.587685 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.588085 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.588430 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:10.588828 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:14.446468 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:42:14.447362 #3968]  INFO -- : Executing: delete from purchases
+I, [2014-01-29T09:44:05.932098 #3980]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = '0'
+I, [2014-01-29T09:47:02.126664 #3985]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:47:02.127468 #3985]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:47:55.818342 #3992]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:47:57.821751 #3992]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:48:48.050761 #3999]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:48:49.870879 #3999]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:50:41.073686 #4006]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:50:41.074390 #4006]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:50:59.372374 #4013]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:50:59.372972 #4013]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:51:37.407005 #4020]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:51:37.407535 #4020]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:54:01.342639 #4027]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:54:05.498308 #4027]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:54:50.268514 #4035]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T09:54:50.269771 #4035]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:00:40.315453 #4045]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:00:40.316294 #4045]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:01:48.143920 #4054]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:01:50.805961 #4054]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:02:11.441381 #4062]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:02:13.879651 #4062]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:02:47.793417 #4070]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:02:51.430185 #4070]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:16.648650 #4078]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:16.654886 #4078]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:49.697298 #4085]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:49.698199 #4085]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:55.559087 #4093]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:04:55.560306 #4093]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:20:11.372703 #884]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:20:11.376195 #884]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:20:11.381108 #884]  INFO -- : Executing: select count(id) from Cars
+I, [2014-01-29T10:20:11.381898 #884]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:20:36.906530 #889]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:20:36.907714 #889]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:20:36.908024 #889]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:20:36.912274 #889]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:21:05.680757 #894]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:21:05.685055 #894]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:21:05.686054 #894]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:21:09.407074 #894]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:21:50.876723 #899]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:22:20.903126 #899]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:22:20.907851 #899]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:22:20.908208 #899]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Honda', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:22:20.908448 #899]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:22:20.908874 #899]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:23:05.298300 #906]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:23:05.299017 #906]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:23:05.300461 #906]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:23:05.300738 #906]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:23:05.300899 #906]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:23:05.301767 #906]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:23:28.069087 #912]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:23:28.069896 #912]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:23:28.073948 #912]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:23:28.074198 #912]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:23:28.074305 #912]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:23:28.074553 #912]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:25:22.450292 #918]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:25:22.454915 #918]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:25:22.455278 #918]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:25:22.455496 #918]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:25:22.455944 #918]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:25:22.456578 #918]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:26:06.866220 #924]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:26:06.866805 #924]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:26:06.870926 #924]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:26:06.871203 #924]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:26:06.871386 #924]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:26:06.871656 #924]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:59:53.408301 #981]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:59:53.409011 #981]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:59:53.413217 #981]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:59:53.413487 #981]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T10:59:53.413643 #981]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T10:59:53.414017 #981]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T10:59:53.421812 #981]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T10:59:53.423173 #981]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:00:34.872201 #988]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:00:34.874637 #988]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:00:34.878857 #988]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:00:34.879127 #988]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 
+I, [2014-01-29T11:00:34.879914 #988]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:00:34.880341 #988]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:00:34.881461 #988]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:00:34.881581 #988]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:00:34.881666 #988]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:01:23.742772 #994]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:01:23.747221 #994]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:01:23.751447 #994]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:01:23.751690 #994]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = ''
+I, [2014-01-29T11:01:23.752430 #994]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:01:23.752831 #994]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:01:23.753797 #994]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:01:23.753919 #994]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:01:23.754010 #994]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:02:24.761509 #999]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:02:24.762028 #999]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:02:24.766134 #999]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:02:24.766408 #999]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:02:24.766569 #999]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:02:24.774819 #999]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:02:24.776077 #999]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:02:24.776295 #999]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 
+I, [2014-01-29T11:02:24.777091 #999]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:04:01.603719 #1004]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:04:01.605037 #1004]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:04:01.605245 #1004]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:01.609491 #1004]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:04:01.609851 #1004]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 
+I, [2014-01-29T11:04:01.610589 #1004]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:01.611921 #1004]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:01.612110 #1004]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:04:01.612244 #1004]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:31.460576 #1010]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:31.465041 #1010]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:31.465327 #1010]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:04:31.465449 #1010]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:31.466250 #1010]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:31.467207 #1010]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID=''
+I, [2014-01-29T11:04:31.467394 #1010]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 
+I, [2014-01-29T11:04:31.468020 #1010]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:04:31.468440 #1010]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:04:39.219703 #1016]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:39.224644 #1016]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:39.224987 #1016]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='21'
+I, [2014-01-29T11:04:39.226646 #1016]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:04:39.227530 #1016]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = '21'
+I, [2014-01-29T11:04:39.228213 #1016]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:04:39.229354 #1016]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='22'
+I, [2014-01-29T11:04:39.230301 #1016]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 22
+I, [2014-01-29T11:04:39.237060 #1016]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = '22'
+I, [2014-01-29T11:11:49.729231 #1040]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:11:49.729904 #1040]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:11:49.738228 #1040]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:11:49.742602 #1040]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:11:49.742933 #1040]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='23'
+I, [2014-01-29T11:11:49.744203 #1040]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:11:49.745027 #1040]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:11:49.746029 #1040]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='24'
+I, [2014-01-29T11:11:49.747072 #1040]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 24
+I, [2014-01-29T11:12:36.092513 #1052]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:12:36.093082 #1052]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:12:36.097221 #1052]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:12:36.097580 #1052]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='25'
+I, [2014-01-29T11:12:36.098932 #1052]  INFO -- : Executing: select count(CarID) from Cars
+I, [2014-01-29T11:12:36.100220 #1052]  INFO -- : Executing: INSERT INTO Cars (CarYear, CarMake, CarModel, CarTrim, PurchaseMileage, PurchasePrice, DateOfPurchase, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500','09/01/2012','8500','105000')
+I, [2014-01-29T11:12:36.101362 #1052]  INFO -- : Executing: UPDATE Cars SET CarYear='2006', CarMake='Volkswagen', CarModel='Jetta', CarTrim='2.5', PurchaseMileage='105000', PurchasePrice='8500', DateOfPurchase='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE CarID='26'
+I, [2014-01-29T11:12:36.102402 #1052]  INFO -- : Executing: SELECT * FROM Cars WHERE CarID = 26
+I, [2014-01-29T11:12:36.108440 #1052]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.CarID = p.CarID WHERE p.CarID = '26'
+I, [2014-01-29T11:49:25.559626 #1102]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:49:25.576513 #1102]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:51:01.099184 #1109]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:55:38.839610 #1118]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T11:55:38.840376 #1118]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:58:28.336742 #1125]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:58:28.337972 #1125]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T11:58:52.875114 #1132]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T11:58:52.876712 #1132]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T11:59:25.333961 #1139]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T11:59:25.334786 #1139]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:00:30.273912 #1147]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:00:30.281917 #1147]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:00:30.282770 #1147]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:01:19.955213 #1154]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:01:19.956453 #1154]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:01:19.956903 #1154]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:02:29.372602 #1171]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:02:29.373267 #1171]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:02:29.382749 #1171]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:05:16.914744 #1181]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:05:16.920203 #1181]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:05:16.924720 #1181]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:05:16.924937 #1181]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Passat','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:05:16.928841 #1181]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:11:33.563351 #1191]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:11:33.564073 #1191]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:11:33.569570 #1191]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:11:33.569741 #1191]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Passat','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:11:33.573659 #1191]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:15:30.470593 #1201]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:15:30.477215 #1201]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:15:30.484189 #1201]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:15:30.484384 #1201]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Passat','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:15:30.488943 #1201]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:15:30.494096 #1201]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:15:30.495014 #1201]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='4'
+I, [2014-01-29T12:15:30.495792 #1201]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 4
+I, [2014-01-29T12:16:59.217119 #1208]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:16:59.217522 #1208]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Passat','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:16:59.221528 #1208]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:16:59.226923 #1208]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:16:59.227668 #1208]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:16:59.228808 #1208]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='6'
+I, [2014-01-29T12:16:59.229980 #1208]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 6
+I, [2014-01-29T12:16:59.620761 #1208]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:17:27.398417 #1216]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:17:27.398785 #1216]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Passat','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:17:27.403562 #1216]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:17:27.409276 #1216]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:17:27.410411 #1216]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='2'
+I, [2014-01-29T12:17:27.411579 #1216]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 2
+I, [2014-01-29T12:17:27.411989 #1216]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:17:27.414183 #1216]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:18:43.605387 #1223]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:18:43.609751 #1223]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='3'
+I, [2014-01-29T12:18:43.611191 #1223]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 3
+I, [2014-01-29T12:18:43.611837 #1223]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:18:43.612647 #1223]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:18:43.613869 #1223]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:18:43.614010 #1223]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='4'
+I, [2014-01-29T12:18:43.615405 #1223]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:18:43.618502 #1223]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:19:26.524439 #1230]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:19:26.531595 #1230]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:19:26.532607 #1230]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:19:26.536656 #1230]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:19:26.536971 #1230]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='5'
+I, [2014-01-29T12:19:26.538534 #1230]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:19:26.538935 #1230]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500','105000')
+I, [2014-01-29T12:19:26.540435 #1230]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500' WHERE ID='6'
+I, [2014-01-29T12:19:26.541937 #1230]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 6
+I, [2014-01-29T12:19:50.308924 #1237]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:19:50.313477 #1237]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:19:50.317529 #1237]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:19:50.317826 #1237]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='7'
+I, [2014-01-29T12:19:50.318828 #1237]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:19:50.319808 #1237]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:19:50.320273 #1237]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:19:50.321146 #1237]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Passat', Trim='2.5', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='8'
+I, [2014-01-29T12:19:50.322045 #1237]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 8
+I, [2014-01-29T12:20:29.259204 #1242]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:20:29.259942 #1242]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:20:29.263967 #1242]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='9'
+I, [2014-01-29T12:20:29.265442 #1242]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 9
+I, [2014-01-29T12:20:29.270530 #1242]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:20:29.271567 #1242]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:20:29.271769 #1242]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='10'
+I, [2014-01-29T12:20:29.272655 #1242]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:20:29.273057 #1242]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:21:07.072216 #1249]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:21:07.076521 #1249]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:21:07.076907 #1249]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='11'
+I, [2014-01-29T12:21:07.078107 #1249]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:21:07.078611 #1249]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:21:07.079733 #1249]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='12'
+I, [2014-01-29T12:21:07.080755 #1249]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12
+I, [2014-01-29T12:21:07.081553 #1249]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:21:07.087186 #1249]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:22:23.728032 #1254]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:22:23.732587 #1254]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='13'
+I, [2014-01-29T12:22:23.733941 #1254]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 13
+I, [2014-01-29T12:22:23.734540 #1254]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:22:23.735441 #1254]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:22:23.736292 #1254]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:22:23.737724 #1254]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:22:23.737909 #1254]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='14'
+I, [2014-01-29T12:22:23.739193 #1254]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:23:21.806602 #1266]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:23:21.811071 #1266]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:23:21.811349 #1266]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='15'
+I, [2014-01-29T12:23:21.812463 #1266]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:23:21.813061 #1266]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:23:21.814414 #1266]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:23:21.814726 #1266]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:23:21.815673 #1266]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='16'
+I, [2014-01-29T12:23:21.816602 #1266]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 16
+I, [2014-01-29T12:28:58.562262 #1279]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:28:58.562833 #1279]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:28:58.566946 #1279]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='17'
+I, [2014-01-29T12:28:58.567982 #1279]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 17
+I, [2014-01-29T12:28:58.568525 #1279]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:28:58.569762 #1279]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='18'
+I, [2014-01-29T12:28:58.572104 #1279]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:28:58.572927 #1279]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:28:58.573632 #1279]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:28:58.573777 #1279]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='19'
+I, [2014-01-29T12:28:58.574894 #1279]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:29:42.605042 #1285]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:29:42.609445 #1285]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='20'
+I, [2014-01-29T12:29:42.611567 #1285]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 20
+I, [2014-01-29T12:29:42.612330 #1285]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:29:42.613061 #1285]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:29:42.614137 #1285]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:29:42.614368 #1285]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='21'
+I, [2014-01-29T12:29:42.615443 #1285]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:29:54.242519 #1285]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:29:54.244040 #1285]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:29:54.248760 #1285]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='22'
+I, [2014-01-29T12:42:30.653510 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:30.658059 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:42:30.659243 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:42:30.660080 #1299]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:42:30.661525 #1299]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:42:30.661643 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:30.662524 #1299]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:42:51.292849 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.297375 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:42:51.298640 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:42:51.299633 #1299]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:42:51.300105 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.301075 #1299]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='30'
+I, [2014-01-29T12:42:51.301953 #1299]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 30
+I, [2014-01-29T12:42:51.302308 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.303154 #1299]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 31
+I, [2014-01-29T12:42:51.303774 #1299]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:42:51.305353 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.306516 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.307406 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:42:51.309019 #1299]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:42:51.309458 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.310327 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:42:51.311312 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.312548 #1299]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:42:51.312877 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.314142 #1299]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='38'
+I, [2014-01-29T12:42:51.315293 #1299]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:42:51.316153 #1299]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:42:51.316329 #1299]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='39'
+I, [2014-01-29T12:42:51.317050 #1299]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:45:37.992779 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:37.997080 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:45:37.999154 #1305]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:45:38.010055 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:38.011056 #1305]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='42'
+I, [2014-01-29T12:45:56.698715 #1305]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:45:56.699226 #1305]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:45:56.699415 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.703586 #1305]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:45:56.704395 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.705456 #1305]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 44
+I, [2014-01-29T12:45:56.706120 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.707488 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.708429 #1305]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 46
+I, [2014-01-29T12:45:56.708880 #1305]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:45:56.710878 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.711768 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:45:56.713052 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.714141 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.715174 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.716498 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:45:56.717719 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:45:56.718654 #1305]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:45:56.719153 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.720054 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:45:56.721399 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.722869 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.724236 #1305]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:45:56.724426 #1305]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='57'
+I, [2014-01-29T12:45:56.725583 #1305]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:45:56.726051 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.727141 #1305]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='58'
+I, [2014-01-29T12:45:56.728087 #1305]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 58
+I, [2014-01-29T12:45:56.728498 #1305]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:45:56.728849 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:45:56.729865 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:45:56.731187 #1305]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:45:56.732870 #1305]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:46:27.641170 #1313]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:46:27.641854 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:27.646039 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:46:27.647855 #1313]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:46:45.563607 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.567860 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:46:45.568735 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:46:45.569544 #1313]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:46:45.570388 #1313]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:46:45.571081 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.572793 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.574094 #1313]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:46:45.577801 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.578679 #1313]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:46:45.578857 #1313]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='69'
+I, [2014-01-29T12:46:45.579597 #1313]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:46:45.580020 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.580745 #1313]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 70
+I, [2014-01-29T12:46:45.581045 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.581761 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:46:45.582859 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.583588 #1313]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='73'
+I, [2014-01-29T12:46:45.584272 #1313]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 73
+I, [2014-01-29T12:46:45.584599 #1313]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:46:45.584719 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.585806 #1313]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:46:45.586088 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.586979 #1313]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 75
+I, [2014-01-29T12:46:45.587393 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.588414 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.589119 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:46:45.590199 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:46:45.590945 #1313]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:46:45.591265 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.591953 #1313]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='80'
+I, [2014-01-29T12:46:45.593183 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.594007 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:46:45.594714 #1313]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:46:45.595475 #1313]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Volkswagen%' ORDER BY Make ASC
+I, [2014-01-29T12:47:33.655587 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.660175 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.661411 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:47:33.662768 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.663672 #1342]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='87'
+I, [2014-01-29T12:47:33.664381 #1342]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 87
+I, [2014-01-29T12:47:33.664811 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.665807 #1342]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:47:33.665949 #1342]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='88'
+I, [2014-01-29T12:47:33.666770 #1342]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:47:33.666999 #1342]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:47:33.667445 #1342]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:47:33.670283 #1342]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:47:33.670386 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.671738 #1342]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:47:33.671988 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.673088 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.673938 #1342]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 91
+I, [2014-01-29T12:47:33.674306 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.675188 #1342]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='92'
+I, [2014-01-29T12:47:33.676161 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.677048 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:47:33.677994 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.678699 #1342]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Volkswagen%' ORDER BY Make ASC
+I, [2014-01-29T12:47:33.689921 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:47:33.690976 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:47:33.692634 #1342]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:47:33.692904 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:02.648781 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:02.653071 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:02.654608 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:48:02.655734 #1342]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:48:02.656155 #1342]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:48:02.667058 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:02.668080 #1342]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 102
+I, [2014-01-29T12:48:02.668452 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:02.669340 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:02.670244 #1342]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:48:02.671133 #1342]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.887098 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.891346 #1356]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:48:59.891631 #1356]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='106'
+I, [2014-01-29T12:48:59.892637 #1356]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:48:59.893213 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.894085 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:59.894978 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:48:59.895641 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.895888 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.899808 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.901058 #1356]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='110'
+I, [2014-01-29T12:48:59.902043 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.902888 #1356]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 111
+I, [2014-01-29T12:48:59.903168 #1356]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:48:59.903281 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.904115 #1356]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:48:59.904321 #1356]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:48:59.904522 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.919881 #1356]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:48:59.920535 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.921657 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:59.922541 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.923396 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Volkswagen%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.931860 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.933452 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.934552 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:59.935469 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:48:59.936491 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:48:59.937518 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.938883 #1356]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='120'
+I, [2014-01-29T12:48:59.939824 #1356]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 120
+I, [2014-01-29T12:48:59.940382 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.941506 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:59.942735 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.943752 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.944744 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.946108 #1356]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 125
+I, [2014-01-29T12:48:59.946572 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:48:59.947918 #1356]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:48:59.949673 #1356]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:50:57.306049 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:50:57.310440 #1368]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='128'
+I, [2014-01-29T12:50:57.312810 #1368]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 128
+I, [2014-01-29T12:50:57.313409 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:50:57.314737 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:50:57.316092 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:50:57.317538 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:50:57.318580 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:50:57.319478 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.0','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:50:57.320336 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Volkswagen%' ORDER BY Make ASC
+I, [2014-01-29T12:50:57.329569 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:50:57.330506 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:50:57.331255 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:50:57.332490 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:50:57.333271 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:50:57.333986 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:50:57.335027 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:50:57.336146 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:50:57.337026 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.316578 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.320826 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.322122 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.323706 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.324712 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.325431 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.326539 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.327622 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:51:13.327766 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.328910 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.330469 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.332247 #1368]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:51:13.332455 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.333728 #1368]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:51:13.333855 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.335179 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.336391 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.337627 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:51:13.337752 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.338589 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.340042 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.342161 #1368]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:51:13.342392 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.343627 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.344579 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.346059 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.346935 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.347743 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.348838 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.349645 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:51:13.350497 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:51:13.351317 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:51:13.351501 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.352387 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.353189 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.354222 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.355069 #1368]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:51:13.355950 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.356762 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.357618 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.359326 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.360395 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.361327 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.362408 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.363261 #1368]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:51:13.363503 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.364311 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.365110 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.366158 #1368]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:51:13.366267 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.367082 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.367886 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.368948 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.369804 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.370957 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.371855 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.373798 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.375218 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.376339 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.378166 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.379130 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.380382 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.381605 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.382787 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.383964 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.384778 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.385878 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.387230 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.388098 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.389452 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.390386 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:51:13.391275 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:51:13.391529 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.393251 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.394352 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.395897 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.396547 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.397367 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.398527 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.399253 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:51:13.399928 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.400678 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.401462 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.402548 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.403406 #1368]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:51:13.403537 #1368]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:51:13.404427 #1368]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:51:13.404533 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.405329 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.406416 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.407714 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.408542 #1368]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:51:13.408705 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.409435 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.410549 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.412381 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.413403 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.414551 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:51:13.416075 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:51:13.417110 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:51:13.417977 #1368]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:51:13.419188 #1368]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:51:13.419390 #1368]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:51:13.420191 #1368]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:51:13.421036 #1368]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.406234 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.410436 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.412014 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.413873 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.414886 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.415655 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.416917 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:01.418266 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:54:01.419225 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:54:01.420130 #1377]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:54:01.420402 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.421352 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.422321 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.423618 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:01.424507 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.425327 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.426135 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.427554 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:01.428767 #1377]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:54:01.429119 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.429897 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.430661 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.431748 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:01.432590 #1377]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:54:01.433299 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.434728 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.435708 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.437349 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:01.438652 #1377]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:54:01.438785 #1377]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:54:01.440331 #1377]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:54:01.440456 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.441692 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.442892 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.444391 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.445526 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.446490 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:01.447729 #1377]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:54:01.447940 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:01.448854 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:01.450154 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.359756 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.364069 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.365713 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.368059 #1377]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:54:14.368321 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.369821 #1377]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:54:14.370020 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.370798 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.372087 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.373776 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.374709 #1377]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:54:14.374936 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.375786 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.376618 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.377811 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.378658 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.379495 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.380651 #1377]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:54:14.380822 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.382050 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.382937 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.384125 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.385070 #1377]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:54:14.386397 #1377]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:54:14.386611 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.387752 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.389019 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.391020 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.392032 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.392832 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.394056 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.395556 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.396402 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.397259 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.398419 #1377]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:54:14.398562 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.399407 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.400916 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.402248 #1377]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:54:14.402370 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.403516 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.404718 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.405961 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.407041 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.407886 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.409856 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.411138 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:54:14.411985 #1377]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:54:14.412197 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.413044 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.414106 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.415528 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.416401 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.417222 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.418421 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.419642 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.420475 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.421607 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.422823 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.423714 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.424511 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.425571 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.426449 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:54:14.428375 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:54:14.429488 #1377]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:54:14.429656 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.430610 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.431557 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.432875 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:54:14.433737 #1377]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:54:14.434585 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.435404 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.436179 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:54:14.437098 #1377]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:54:14.438081 #1377]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:54:14.438939 #1377]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.708517 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.712647 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.713751 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.715049 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:13.715976 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.716673 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.717550 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.718608 #1384]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:13.718754 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.719569 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.720391 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.721442 #1384]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:59:13.721564 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:13.722365 #1384]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:59:13.722470 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.723658 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.724648 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.726192 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.727502 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.728596 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.729928 #1384]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:13.730057 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.730920 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.731755 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.732756 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:13.733552 #1384]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:59:13.733694 #1384]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:59:13.734698 #1384]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T12:59:13.734825 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.736273 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.737254 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.738534 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.739748 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.740949 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:13.742202 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:13.742954 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:13.743774 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.081527 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.085667 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.086995 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.088502 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.090603 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.091853 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.093063 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.094747 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.095709 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:35.096768 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:59:35.097731 #1384]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:59:35.097915 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.098843 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.099677 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.100858 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.101719 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.102474 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.103591 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.104473 #1384]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:59:35.104693 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.105991 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.107096 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.108495 #1384]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:59:35.108672 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.109839 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.110825 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.112461 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.113369 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:35.114320 #1384]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:35.114545 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.115441 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.116473 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.117976 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.119861 #1384]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:59:35.121179 #1384]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:59:35.121349 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.122439 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.123616 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.124962 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.125785 #1384]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:59:35.125958 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.126739 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.128128 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.130317 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.131645 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:35.132542 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.133483 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.134560 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.135740 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.136590 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.137390 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.138209 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.139299 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.140179 #1384]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:59:35.141014 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.141811 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.142642 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.143788 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.144870 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.146127 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.148012 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.149068 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.150143 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.151200 #1384]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:59:35.151328 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.152133 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.152971 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.154035 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:35.154898 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:35.155761 #1384]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:59:35.156828 #1384]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:59:35.157005 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.157947 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.159000 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.160229 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.161079 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.162624 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:35.164000 #1384]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:35.165636 #1384]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:35.167244 #1384]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.198211 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.202413 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.203947 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.205910 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.207507 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.208433 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.209857 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.210731 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.211606 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.212825 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.213727 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.214938 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.216468 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.217611 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.218717 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.220408 #1392]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE p.CarID = ''
+I, [2014-01-29T12:59:47.220596 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.221316 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.222042 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.223308 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.224276 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:47.225194 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.226030 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.227117 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.228523 #1392]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T12:59:47.228663 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.229506 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.230327 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.231389 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.232255 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:47.233105 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:59:47.234069 #1392]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T12:59:47.234210 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.235052 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.236243 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.237905 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.238746 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:47.239880 #1392]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:47.240123 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.240966 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.241788 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.242962 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.243776 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.244788 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.245835 #1392]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:47.245955 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.246765 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.247560 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.248638 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.249910 #1392]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:59:47.250071 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.250893 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.251788 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.253666 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.254730 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T12:59:47.255594 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T12:59:47.256426 #1392]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T12:59:47.256609 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.257239 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.258062 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.259295 #1392]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T12:59:47.259418 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.260387 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.261224 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.262381 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T12:59:47.263284 #1392]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T12:59:47.264119 #1392]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T12:59:47.264272 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.265163 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.265955 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T12:59:47.267040 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T12:59:47.268112 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T12:59:47.269287 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.867850 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.872008 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.873300 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.874774 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.875737 #1392]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:00:08.875910 #1392]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T13:00:08.876665 #1392]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:00:08.876807 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.877641 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.878902 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.880046 #1392]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:00:08.880199 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.881179 #1392]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:00:08.881314 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.882225 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.883114 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.884302 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.885209 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.886543 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.887877 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.889719 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.890889 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.892042 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.893383 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.894684 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.895545 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.896676 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.898119 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.898902 #1392]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T13:00:08.899084 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.899949 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.900875 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.902333 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.904030 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.905268 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.906681 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.907981 #1392]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T13:00:08.909371 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.910203 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.911227 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:00:08.912593 #1392]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:00:08.913864 #1392]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:00:08.914770 #1392]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:00:08.915936 #1392]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:40:49.321799 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:40:49.332298 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:40:49.333967 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.344260 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.347910 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.348676 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.349829 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.351147 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.351908 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.352931 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.354527 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.355278 #1462]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T13:41:18.355991 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.356621 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.357250 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.358165 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.358834 #1462]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T13:41:18.359042 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.359786 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.360434 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.361362 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.362506 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T13:41:18.363763 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T13:41:18.364819 #1462]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-29T13:41:18.364965 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.365669 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.366994 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.368070 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.368879 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.369835 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.371029 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.371641 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.372302 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.373275 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.374350 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T13:41:18.375875 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-29T13:41:18.377012 #1462]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-29T13:41:18.377218 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.378204 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.379174 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.380389 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.381686 #1462]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:41:18.381830 #1462]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T13:41:18.382833 #1462]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:41:18.382961 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.383596 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.384928 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.386034 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.386797 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.387688 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.388540 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.389499 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.390174 #1462]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T13:41:18.390378 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.391054 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.391939 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.393145 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.394005 #1462]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-29T13:41:18.394840 #1462]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-29T13:41:18.394998 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.395888 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.396703 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.397823 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.398950 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.400121 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.401570 #1462]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = ''
+I, [2014-01-29T13:41:18.401707 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.402529 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.403346 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.404410 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.405222 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.406017 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.407061 #1462]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T13:41:18.407188 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.408001 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.409193 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.410579 #1462]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:41:18.410695 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.411456 #1462]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-29T13:41:18.411567 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.412368 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.413324 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.415242 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.416509 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.417466 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.419206 #1462]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T13:41:18.419326 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.420529 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.421371 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.422638 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.423528 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T13:41:18.424335 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.425653 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.426474 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.427610 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.428421 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.429229 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.430306 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.431107 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.432294 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.433506 #1462]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-29T13:41:18.433628 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.434482 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.435944 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.437572 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.438541 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.439470 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.440419 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.441497 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.442283 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.443105 #1462]  INFO -- : Executing: delete from Parts
+I, [2014-01-29T13:41:18.444501 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-29T13:41:18.445356 #1462]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-29T13:41:18.446189 #1462]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-29T13:41:18.446405 #1462]  INFO -- : Executing: delete from Cars
+I, [2014-01-29T13:41:18.447335 #1462]  INFO -- : Executing: delete from Projects
+I, [2014-01-29T13:41:18.448160 #1462]  INFO -- : Executing: delete from Parts

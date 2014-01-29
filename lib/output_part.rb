@@ -44,7 +44,7 @@ def show_parts car, project, parts
       i += 1
     end
   else
-    puts red("NO PARTS")
+    puts red("\nNO PARTS FOUND")
   end
 end
 
@@ -53,13 +53,17 @@ def show_part car,project,part
   menu_part
   header_car(car)
   header_project(project)
-  details = "\n\tPart:\t"+yellow(part.name)+"\n\n"
-  details << "\n\tDescription:\t"+yellow(part.description)+"\n\n"
-  details << "\n\tManufacturer:\t"+yellow(part.manufacturer)+"\n\n"
-  details << "\n\tModel No.:\t"+yellow(part.model_num)+"\n\n"
-  details << "\n\tReplaced:\t"+yellow(part.replacement_date)+"\n\n"
+  details = "\n\tPart:\t"+yellow(part.name)+"\n"
+  details << "\n\tDescription:\t"+yellow(part.description)+"\n"
+  details << "\n\tManufacturer:\t"+yellow(part.manufacturer)+"\n"
+  details << "\n\tModel No.:\t"+yellow(part.model_num)+"\n"
+  details << "\n\tReplaced:\t"+yellow(part.replacement_date)+"\n"
   details << "\n\tWarranty:\t"
-  details << part.warranty ? "Yes\n\n" : "No\n\n"
+  if part.warranty == true
+    details << "Yes\n\n"
+  else
+    details << "No\n\n"
+  end
   puts details
 end
 
@@ -67,52 +71,55 @@ def add_part car,project
   sub_header = ""
   header_add_part(car,project,sub_header)
   new_part = []
-  new_part[0] = 0
-  new_part[1] = car.car_id
-  new_part[2] = project.project_id
+  new_part[0] = car.id
+  new_part[1] = project.id
   puts "\nEnter a name for this new part..."
-  new_part[3] = gets.chomp
-  sub_header << "\tPart: #{green(new_part[3])}\n"
+  new_part[2] = gets.chomp
+  return false if new_part[2] == "0"
+  sub_header << "\tPart: #{green(new_part[2])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter replacement date:"
-  new_part[4] = gets.chomp
-  sub_header << "\tReplaced: #{green(new_part[4])}\n"
+  new_part[3] = gets.chomp
+  return false if new_part[3] == "0"
+  sub_header << "\tReplaced: #{green(new_part[3])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter a description:"
-  new_part[5] = gets.chomp
-  sub_header << "\tDescription: #{green(new_part[5])}\n"
+  new_part[4] = gets.chomp
+  return false if new_part[4] == "0"
+  sub_header << "\tDescription: #{green(new_part[4])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter the part manufacturer:"
-  new_part[6] = gets.chomp
-  sub_header << "\tManufacturer: #{green(new_part[6])}\n"
+  new_part[5] = gets.chomp
+  return false if new_part[5] == "0"
+  sub_header << "\tManufacturer: #{green(new_part[5])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter the model number:"
-  new_part[7] = gets.chomp
-  sub_header << "\tModel No.: #{green(new_part[7])}\n"
+  new_part[6] = gets.chomp
+  return false if new_part[6] == "0"
+  sub_header << "\tModel No.: #{green(new_part[6])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter the part vendor:"
-  new_part[8] = gets.chomp
-  sub_header << "\tVendor: #{green(new_part[8])}\n"
+  new_part[7] = gets.chomp
+  return false if new_part[7] == "0"
+  sub_header << "\tVendor: #{green(new_part[7])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter the purchase price:"
-  new_part[9] = gets.chomp
-  sub_header << "\tPrice: #{green(new_part[9])}\n"
+  new_part[8] = gets.chomp
+  return false if new_part[8] == "0"
+  sub_header << "\tPrice: #{green(new_part[8])}\n"
   header_add_part(car,project,sub_header)
   puts "\nIs there a warranty? ('#{green("Y")}' / '#{red("N")}'')}'):"
-  new_part[10] = gets.chomp
-  new_part[10] = new_part[10].downcase == "y" ? true : false
-  sub_header << "\tWarranty: #{green(new_part[10])}\n"
+  new_part[9] = gets.chomp
+  return false if new_part[9] == "0"
+  new_part[9] = new_part[9].downcase == "y" ? true : false
+  sub_header << "\tWarranty: #{green(new_part[9])}\n"
   header_add_part(car,project,sub_header)
-  data = []
-  Part.attributes.each do |a|
-    data << [a, new_part[Part.attributes.index(a)]]
-  end
-  new_part = Part.new(Hash[data])
+  part = Part.new(car_id: new_part[0], project_id: new_part[1], name: new_part[2], replacement_date: new_part[3], description: new_part[4], manufacturer: new_part[5], model_num: new_part[6], vendor: new_part[7], purchase_price: new_part[8], warranty: new_part[9])
   puts "\nSave Part: "+green("1")+"(YES) "+red("2")+"(NO)"
   confirm = 0
   until confirm == 1
       confirm = gets.to_i
       return false if confirm == 2
   end
-  new_part
+  part
 end

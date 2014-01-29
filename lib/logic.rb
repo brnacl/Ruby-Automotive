@@ -14,8 +14,8 @@ class Logic
     elsif command == "+"
       new_car = add_car
       if new_car
-        new_car.create
-        cars = Car.find
+        new_car.save
+        cars = Car.all
       end
     end
   end
@@ -46,9 +46,8 @@ class Logic
       menu_car_value_save
       command = gets.to_i
       if command == 1
-        car.current_value = value[0]
-        car.current_mileage = value[1]
-        car.update
+        car.update(current_value: value[0], current_mileage: value[1])
+        car.save
       end
     end
   end
@@ -65,7 +64,7 @@ class Logic
       elsif command == "+"
         new_project = add_project(car)
         if new_project
-          new_project.create
+          new_project.save
           @projects = car.projects
         end
       end
@@ -84,7 +83,7 @@ class Logic
         if delete?
           project.delete
           @projects = car.projects
-          command_4 = 0
+          command = 0
         end
       end
     end
@@ -102,7 +101,7 @@ class Logic
         header_main
         new_part = add_part(car,project)
         if new_part
-          new_part.create
+          new_part.save
           @parts = project.parts
         end
       end

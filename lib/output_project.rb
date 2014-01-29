@@ -44,7 +44,7 @@ def show_projects car, projects
       i += 1
     end
   else
-    puts red("NO PROJECTS")
+    puts red("\nNO PROJECTS FOUND")
   end
 end
 
@@ -62,38 +62,33 @@ def add_project car
   sub_header = ""
   header_add_project(car,sub_header)
   new_project = []
-  new_project[0] = 0
-  new_project[1] = car.car_id
+  new_project[0] = car.id
   puts "\nEnter a title for this new project..."
-  new_project[2] = gets.chomp
-  return false if new_project[2] == "0"
-  sub_header << "\tProject: #{green(new_project[2])}\n"
+  new_project[1] = gets.chomp
+  return false if new_project[1] == "0"
+  sub_header << "\tProject: #{green(new_project[1])}\n"
   header_add_project(car,sub_header)
   puts "\nEnter a description:"
-  new_project[3] = gets.chomp
-  return false if new_project[3] == "0"
-  sub_header << "\tDescription: #{green(new_project[3])}\n"
+  new_project[2] = gets.chomp
+  return false if new_project[2] == "0"
+  sub_header << "\tDescription: #{green(new_project[2])}\n"
   header_add_project(car,sub_header)
   puts "\nEnter vehicle mileage..."
-  new_project[4] = gets.chomp
-  return false if new_project[4] == "0"
-  sub_header << "\tMileage: #{green(new_project[4])}\n"
+  new_project[3] = gets.chomp
+  return false if new_project[3] == "0"
+  sub_header << "\tMileage: #{green(new_project[3])}\n"
   header_add_project(car,sub_header)
   puts "\nEnter the start date for the project..."
-  new_project[5] = gets.chomp
-  return false if new_project[5] == "0"
-  sub_header << "\tStart Date: #{green(new_project[5])}\n"
+  new_project[4] = gets.chomp
+  return false if new_project[4] == "0"
+  sub_header << "\tStart Date: #{green(new_project[4])}\n"
   header_add_project(car,sub_header)
-  data = []
-  Project.attributes.each do |a|
-    data << [a, new_project[Project.attributes.index(a)]]
-  end
-  new_project = Project.new(Hash[data])
+  project = Project.new(car_id: new_project[0], title: new_project[1], description: new_project[2], mileage: new_project[3], start_date: new_project[4])
   puts "\nSave Project: "+green("1")+"(YES) "+red("2")+"(NO)"
   confirm = 0
   until confirm == 1
       confirm = gets.to_i
       return false if confirm == 2
   end
-  new_project
+  project
 end
