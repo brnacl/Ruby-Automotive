@@ -163,7 +163,7 @@ class TestCar < AutoTest
   end
 
   def test_car_get_current_value_returns_integer
-    car = Car.new({year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012"})
+    car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
     value = car.get_current_value([120000,"Outstanding",37206])
     assert_operator(0, :<, value)
   end

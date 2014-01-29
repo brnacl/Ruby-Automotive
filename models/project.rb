@@ -40,7 +40,7 @@ class Project
   def self.find id
     db = Environment.database_connection
     db.results_as_hash = true
-    statement = "SELECT * FROM Parts WHERE ID = #{id}"
+    statement = "SELECT * FROM Projects WHERE ID = #{id}"
     results = db.execute(statement)[0]
     if results
       project = Project.new(car_id: results["CarID"],
