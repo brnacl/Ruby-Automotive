@@ -4786,3 +4786,670 @@ I, [2014-01-30T10:36:37.408228 #6313]  INFO -- : Executing: SELECT COUNT(ID) FRO
 I, [2014-01-30T10:36:37.408331 #6313]  INFO -- : Executing: delete from Cars
 I, [2014-01-30T10:36:37.409170 #6313]  INFO -- : Executing: delete from Projects
 I, [2014-01-30T10:36:37.410185 #6313]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.807237 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.809224 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:45:28.810356 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.811195 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.812314 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.813811 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.814894 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.815718 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.816927 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.818901 #6488]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:45:28.819245 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.820390 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.821636 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.823124 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.824060 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:45:28.824201 #6488]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:45:28.825057 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:45:28.825161 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.825973 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.826795 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.827930 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.828777 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:45:28.829935 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-30T10:45:28.831501 #6488]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-30T10:45:28.831635 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.832527 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.833699 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.835102 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.835954 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.836932 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.839075 #6488]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = ''
+I, [2014-01-30T10:45:28.839347 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.840863 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.842009 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.843206 #6488]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:45:28.843346 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.844076 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.844748 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.845610 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.846411 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:45:28.847098 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-30T10:45:28.848012 #6488]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-30T10:45:28.848214 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.849605 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.850825 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.852202 #6488]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-30T10:45:28.852332 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.853625 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.854792 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.857122 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.858800 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.859971 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.861348 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.862358 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:45:28.863391 #6488]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:45:28.863630 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.865326 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.866551 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.868139 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.869232 #6488]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:45:28.870205 #6488]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:45:28.870363 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.871280 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.872143 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.873187 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.874110 #6488]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:45:28.875178 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.875986 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.877664 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.879691 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.880848 #6488]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:45:28.881012 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.881871 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.883075 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.884095 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.884931 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.885740 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.887102 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.887993 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.889011 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.890085 #6488]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:45:28.890222 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.891449 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.892378 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.893538 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.894744 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.896220 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.897462 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.898940 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.899838 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.900688 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:45:28.901970 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:45:28.902081 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:45:28.902918 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:45:28.903022 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:45:28.903868 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:45:28.904652 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.955930 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.960394 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.961613 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.962779 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:46:57.963689 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.964971 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.966172 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.967931 #6488]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:46:57.969232 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.970155 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.971617 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.972894 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.973835 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.974689 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.975701 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.976475 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.977376 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.978551 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.979405 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.980242 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.981498 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.983665 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.985175 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.987646 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:57.989537 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:46:57.990967 #6488]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:46:57.991229 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.992225 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.993345 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.994714 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.995630 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.996470 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:57.997398 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:57.998477 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:57.999316 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.000363 #6488]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:46:58.000482 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.001602 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.002791 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.004506 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.006395 #6488]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 155
+I, [2014-01-30T10:46:58.006584 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.007420 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.008389 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.010013 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.011851 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:46:58.012001 #6488]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='true' WHERE ID='156'
+I, [2014-01-30T10:46:58.013389 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:46:58.013509 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.014660 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.015836 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.017096 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.018071 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.019053 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.020071 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.021319 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.023361 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.024965 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.026416 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:46:58.027831 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Seat Screw', '01/01/2014', 'A happy little seat screw', 'Screw, Co.', 'ABC-789-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.029133 #6488]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%tire%' ORDER BY Name ASC
+I, [2014-01-30T10:46:58.029274 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.030110 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.030937 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.031838 #6488]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 12342
+I, [2014-01-30T10:46:58.031942 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.032579 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.033455 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.034456 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.035606 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.036786 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.037863 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.039342 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.040803 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:46:58.042098 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.043222 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.044231 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.045260 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.046420 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.047233 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.048052 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.049137 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.050008 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.051315 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.052737 #6488]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:46:58.052875 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.053772 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.054884 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.055935 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.057620 #6488]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 164
+I, [2014-01-30T10:46:58.057795 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.058650 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.059572 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.060591 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:46:58.060699 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.061997 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:46:58.062099 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.063021 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.063803 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.064808 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.065656 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.066406 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.068003 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.069574 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.070440 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.071167 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.072238 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.073140 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.074333 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.075411 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.076689 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.077543 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.078853 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.080076 #6488]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='false' WHERE ID='167'
+I, [2014-01-30T10:46:58.080920 #6488]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 167
+I, [2014-01-30T10:46:58.081085 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.082343 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.083687 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.085293 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.086157 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.087401 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.088609 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.089806 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:46:58.090996 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Seat Screw', '01/01/2014', 'A happy little seat screw', 'Screw, Co.', 'ABC-789-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.092262 #6488]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%Screw%' ORDER BY Name ASC
+I, [2014-01-30T10:46:58.092441 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.093387 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.094208 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.095210 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.096949 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.098201 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.100080 #6488]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:46:58.101422 #6488]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='false' WHERE ID='171'
+I, [2014-01-30T10:46:58.102177 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.102844 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.103653 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.105175 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:46:58.105286 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.106266 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:46:58.106375 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.107198 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.108013 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.109014 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.109868 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:46:58.110719 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.111583 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.112420 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.114154 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.115486 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.116698 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.117842 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.118725 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:46:58.119574 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the tranny','Not that kind of tranny!','150000','01/01/2014')
+I, [2014-01-30T10:46:58.120409 #6488]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%Fix%' ORDER BY Title ASC
+I, [2014-01-30T10:46:58.120597 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.121410 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.122247 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.123230 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.124076 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.124898 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.125728 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.127419 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.128345 #6488]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:46:58.128482 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.129421 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.130304 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.132798 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.134085 #6488]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:46:58.135593 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.136567 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.137410 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.138429 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.139278 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.139942 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.140968 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.141877 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.142835 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.143671 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.144656 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.145504 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:46:58.146318 #6488]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:46:58.146492 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.147328 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.148175 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.149883 #6488]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON proj.ID = p.ProjectID WHERE proj.ID = ''
+I, [2014-01-30T10:46:58.150016 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.151081 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.152086 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.153105 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.154004 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.155118 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.156227 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.157086 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:46:58.157197 #6488]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:46:58.158032 #6488]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:46:58.158135 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.159010 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.160524 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.162408 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.163750 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.164883 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.165912 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.167136 #6488]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 12342
+I, [2014-01-30T10:46:58.167250 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.168526 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.169717 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.171741 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.173057 #6488]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:46:58.173937 #6488]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:46:58.174081 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.174788 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.175472 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.177036 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.177907 #6488]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:46:58.178037 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.179451 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.180865 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.181940 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.183281 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.184408 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.185633 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.186452 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.188033 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.189681 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:46:58.191117 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:46:58.191969 #6488]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the tranny','Not that kind of tranny!','150000','01/01/2014')
+I, [2014-01-30T10:46:58.192893 #6488]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%tire%' ORDER BY Title ASC
+I, [2014-01-30T10:46:58.193013 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.193807 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.195050 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.196161 #6488]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:46:58.196280 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.197143 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.197981 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:46:58.199437 #6488]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:46:58.199560 #6488]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:46:58.200410 #6488]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:46:58.201253 #6488]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.060910 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.065184 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.066303 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.067644 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.068969 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:47:10.069111 #6494]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:47:10.069895 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:47:10.070024 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.071133 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.072427 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.073779 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.074852 #6494]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:47:10.075064 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.075920 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.076790 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.077819 #6494]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 12342
+I, [2014-01-30T10:47:10.077935 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.078773 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.079609 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.081606 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.083193 #6494]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:47:10.084135 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.085003 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.086191 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.087273 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.088160 #6494]  INFO -- : Executing: UPDATE Cars SET Year='2006', Make='Volkswagen', Model='Jetta', Trim='2.0', PurchaseMileage='105000', PurchasePrice='8500.00', PurchaseDate='09/01/2012', CurrentMileage='105000', CurrentValue='8500.00' WHERE ID='1'
+I, [2014-01-30T10:47:10.088996 #6494]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:47:10.089157 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.090074 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.091095 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.092141 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.092968 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.093842 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.094747 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.095464 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:47:10.096127 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.097130 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.098179 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.099845 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.100588 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:47:10.101544 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-30T10:47:10.102439 #6494]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%BMW%' ORDER BY Make ASC
+I, [2014-01-30T10:47:10.102593 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.103445 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.104365 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.105656 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.106576 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.107490 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.108576 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.109780 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.110751 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:47:10.111709 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2004','Honda','Accord','LX','140000','5500.00','10/29/2013','5500.00','140000')
+I, [2014-01-30T10:47:10.112546 #6494]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%Audi%' ORDER BY Make ASC
+I, [2014-01-30T10:47:10.112725 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.114023 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.115363 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.117784 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.119075 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.119984 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.121042 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.121930 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','quattro','1000','40000.00','01/01/2013','40000.00','1000')
+I, [2014-01-30T10:47:10.122943 #6494]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:47:10.123168 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.124073 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.124904 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.125956 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.126788 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.127580 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.129565 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:47:10.129805 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.131090 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Cars
+I, [2014-01-30T10:47:10.131262 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.132137 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.133168 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.135247 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.136436 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.137649 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.138877 #6494]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:47:10.139010 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.139886 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.140746 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.141719 #6494]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T10:47:10.141849 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.142659 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.143478 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.144485 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.145318 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.146140 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.147136 #6494]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = ''
+I, [2014-01-30T10:47:10.147257 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.148058 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.149269 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.150766 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.151738 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.152900 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.154046 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.154861 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.155678 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.156697 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.157552 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.158374 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.159221 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.160078 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.161109 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.161931 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.163935 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.165136 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.165976 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.167177 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.168294 #6494]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2006','Volkswagen','Jetta','2.5','105000','8500.00','09/01/2012','8500.00','105000')
+I, [2014-01-30T10:47:10.169313 #6494]  INFO -- : Executing: SELECT * FROM Cars WHERE ID = 1
+I, [2014-01-30T10:47:10.169485 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.170138 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.171022 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.172305 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.173135 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.174063 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.175461 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.176684 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.177705 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.178536 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.180374 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.181582 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.182808 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.183995 #6494]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:47:10.184127 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.184972 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.185905 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.187060 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.188244 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.189089 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.190074 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.191332 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.195618 #6494]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='false' WHERE ID='174'
+I, [2014-01-30T10:47:10.196710 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.198036 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.199387 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.201807 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.202843 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.203955 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.205268 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.211145 #6494]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='false' WHERE ID='175'
+I, [2014-01-30T10:47:10.212119 #6494]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 175
+I, [2014-01-30T10:47:10.212294 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.213099 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.214220 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.215350 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.216575 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:47:10.217785 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Seat Screw', '01/01/2014', 'A happy little seat screw', 'Screw, Co.', 'ABC-789-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.218900 #6494]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%tire%' ORDER BY Name ASC
+I, [2014-01-30T10:47:10.219025 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.220305 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.221532 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.223009 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.224202 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:47:10.225528 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.226350 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.227181 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.228153 #6494]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 12342
+I, [2014-01-30T10:47:10.228276 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.229128 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.229940 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.230949 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.231773 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.233100 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.234871 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.235950 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.237064 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.238113 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.239374 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:47:10.239513 #6494]  INFO -- : Executing: UPDATE Parts SET CarID='1', ProjectID='1', Name='Engine Bolt', ReplacementDate='01/01/2014', Description='A happy little engine bolt', Manufacturer='Bolt, Co.', ModelNumber='ABC-123-XYZ', Vendor='Auto Zone', PurchasePrice='5.00', Warranty='true' WHERE ID='181'
+I, [2014-01-30T10:47:10.240502 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:47:10.240636 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.241547 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.242392 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.243432 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.244891 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:47:10.246212 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Seat Screw', '01/01/2014', 'A happy little seat screw', 'Screw, Co.', 'ABC-789-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.247354 #6494]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%Screw%' ORDER BY Name ASC
+I, [2014-01-30T10:47:10.247529 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.248722 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.249842 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.251161 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.252100 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.253007 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.254511 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.255758 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Wheel Nut', '01/01/2014', 'A happy little wheel nut', 'Nut, Co.', 'ABC-456-XYZ', 'Auto Zone', '2.00', '')
+I, [2014-01-30T10:47:10.257048 #6494]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:47:10.257256 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.258206 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.259004 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.260044 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.260926 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.261749 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.262804 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.264323 #6494]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 187
+I, [2014-01-30T10:47:10.264488 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.265303 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.266680 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.268744 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.270278 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.271523 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.272624 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.273871 #6494]  INFO -- : Executing: SELECT * FROM Parts WHERE ID = 188
+I, [2014-01-30T10:47:10.274038 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.274973 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.275835 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.277084 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.277933 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.278771 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.279792 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.280715 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.281551 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.283408 #6494]  INFO -- : Executing: SELECT Parts.* from Parts WHERE Name LIKE '%%' ORDER BY Name ASC
+I, [2014-01-30T10:47:10.283538 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.284605 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.285624 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.286807 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.287570 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.288603 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.289788 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:47:10.289901 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.291214 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Parts
+I, [2014-01-30T10:47:10.291322 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.292151 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.293072 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.294231 #6494]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '1', 'Engine Bolt', '01/01/2014', 'A happy little engine bolt', 'Bolt, Co.', 'ABC-123-XYZ', 'Auto Zone', '5.00', 'true')
+I, [2014-01-30T10:47:10.295387 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.296214 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.297077 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.298680 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.299715 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.300971 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.302222 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.303793 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.304785 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:47:10.305654 #6494]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:47:10.305845 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.306681 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.307350 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.308781 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.309761 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:47:10.310643 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the tranny','Not that kind of tranny!','150000','01/01/2014')
+I, [2014-01-30T10:47:10.311655 #6494]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%Fix%' ORDER BY Title ASC
+I, [2014-01-30T10:47:10.311843 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.312889 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.314174 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.315177 #6494]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON proj.ID = p.ProjectID WHERE proj.ID = ''
+I, [2014-01-30T10:47:10.315305 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.316141 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.317230 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.319020 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.320399 #6494]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:47:10.320548 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.321670 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.322502 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.323839 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.324634 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:47:10.325519 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.326848 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.327719 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.329072 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.330394 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.331227 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.332634 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.333508 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.334736 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.335567 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.336678 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.337517 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.338345 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.339344 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:47:10.339447 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.340293 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:47:10.340402 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.341685 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.342673 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.344131 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.345038 #6494]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:47:10.345187 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.346024 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.346849 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.347978 #6494]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 12342
+I, [2014-01-30T10:47:10.348078 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.348888 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.350010 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.351348 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.352277 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.353118 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.353986 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.355015 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.355906 #6494]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:47:10.356777 #6494]  INFO -- : Executing: SELECT * FROM Projects WHERE ID = 1
+I, [2014-01-30T10:47:10.356913 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.358293 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.359293 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.360759 #6494]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:47:10.360875 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.361693 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.362551 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.363794 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.364872 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.365929 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.367244 #6494]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%%' ORDER BY Title ASC
+I, [2014-01-30T10:47:10.367361 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.368670 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.369620 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.370858 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.371702 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.372453 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.373508 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.374435 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:47:10.374546 #6494]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:47:10.375482 #6494]  INFO -- : Executing: SELECT COUNT(ID) FROM Projects
+I, [2014-01-30T10:47:10.375586 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.376787 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.377948 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.379508 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.380435 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the engine','Engine make car go','150000','01/01/2014')
+I, [2014-01-30T10:47:10.381360 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the tranny','Not that kind of tranny!','150000','01/01/2014')
+I, [2014-01-30T10:47:10.382244 #6494]  INFO -- : Executing: SELECT Projects.* from Projects WHERE Title LIKE '%tire%' ORDER BY Title ASC
+I, [2014-01-30T10:47:10.382364 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.383222 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.384030 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.385066 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.385859 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.386692 #6494]  INFO -- : Executing: delete from Parts
+I, [2014-01-30T10:47:10.387690 #6494]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Fix the car','A nice happy little test project','150000','01/01/2014')
+I, [2014-01-30T10:47:10.388507 #6494]  INFO -- : Executing: UPDATE Projects SET CarID='1', Title='Fix the car', Description='A nice happy little test project', Mileage='155000', StartDate='01/01/2014' WHERE ID='1'
+I, [2014-01-30T10:47:10.389353 #6494]  INFO -- : Executing: delete from Cars
+I, [2014-01-30T10:47:10.390178 #6494]  INFO -- : Executing: delete from Projects
+I, [2014-01-30T10:47:10.391004 #6494]  INFO -- : Executing: delete from Parts
