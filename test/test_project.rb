@@ -65,7 +65,7 @@ class TestProject < AutoTest
     assert_equal expected, actual
   end
 
-  def test_saved_cars_are_saved
+  def test_saved_projects_are_saved
     project = Project.new(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
     foos_before = database.execute("SELECT COUNT(ID) FROM Projects")[0][0]
     project.save
@@ -114,7 +114,7 @@ class TestProject < AutoTest
   end
 
   def test_all_returns_empty_array_if_no_projects
-    results = Car.all
+    results = Project.all
     assert_equal [], results
   end
 

@@ -1,5 +1,5 @@
 def header_project project
-  puts "\nPROJECT: " + green("#{project.title}, #{project.start_date}, #{project.mileage}")
+  puts "\nPROJECT: " + green("#{project.title}, #{project.description}, #{project.start_date}, #{project.mileage}")
 end
 
 def header_add_project car,sub_header
