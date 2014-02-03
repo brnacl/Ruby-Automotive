@@ -103,9 +103,7 @@ class Car
     db = Environment.database_connection
     output = []
     begin
-      statement = "SELECT * FROM Projects p "
-      statement << "INNER JOIN Cars c ON c.ID = p.CarID "
-      statement << "WHERE c.ID = '#{id}'"
+      statement = "SELECT * FROM Projects WHERE CarID = '#{id}'"
       results = db.execute(statement)
       results.map do |row_hash|
         project = Project.new(car_id: row_hash["CarID"],

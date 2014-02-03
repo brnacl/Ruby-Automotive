@@ -31,7 +31,7 @@ def menu_add_part
   puts menu
 end
 
-def show_parts car, project, parts
+def show_parts car,project,parts
   header_main
   menu_parts(parts.length)
   header_car(car)
@@ -40,7 +40,7 @@ def show_parts car, project, parts
     puts "\nPARTS:\n"
     i = 1
     parts.each do |part|
-      puts "\t#{i}. "+yellow("#{part.name}, #{part.manufacturer}")
+      puts "\t#{i}. #{yellow(part.to_s)}"
       i += 1
     end
   else
@@ -59,10 +59,10 @@ def show_part car,project,part
   details << "\n\tModel No.:\t"+yellow(part.model_num)+"\n"
   details << "\n\tReplaced:\t"+yellow(part.replacement_date)+"\n"
   details << "\n\tWarranty:\t"
-  if part.warranty == true
-    details << "Yes\n\n"
+  if part.warranty == "true"
+    details << yellow("Yes\n\n")
   else
-    details << "No\n\n"
+    details << yellow("No\n\n")
   end
   puts details
 end
@@ -104,7 +104,7 @@ def add_part car,project
   sub_header << "\tVendor: #{green(new_part[7])}\n"
   header_add_part(car,project,sub_header)
   puts "\nEnter the purchase price:"
-  new_part[8] = gets.chomp
+  new_part[8] = sprintf('%.2f', gets.chomp)
   return false if new_part[8] == "0"
   sub_header << "\tPrice: #{green(new_part[8])}\n"
   header_add_part(car,project,sub_header)

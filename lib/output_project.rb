@@ -32,7 +32,7 @@ def menu_add_project
 end
 
 
-def show_projects car, projects
+def show_projects car,projects
   header_main
   menu_projects(projects.length)
   header_car(car)
@@ -40,7 +40,7 @@ def show_projects car, projects
     puts "\nPROJECTS:\n"
     i = 1
     projects.each do |project|
-      puts "\t#{i}. "+yellow("#{project.title} #{project.start_date}")
+      puts "\t#{i}. #{yellow(project.to_s)}"
       i += 1
     end
   else

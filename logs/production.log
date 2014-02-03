@@ -100,3 +100,78 @@ I, [2014-01-29T20:18:49.546680 #1899]  INFO -- : Executing: SELECT * FROM Parts 
 I, [2014-01-29T20:22:06.040362 #1906]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
 I, [2014-01-29T20:22:08.805642 #1906]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
 I, [2014-01-29T20:22:10.917503 #1906]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON proj.ID = p.ProjectID WHERE proj.ID = '1'
+I, [2014-01-30T11:34:54.689768 #6658]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:40:25.763867 #6658]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:40:28.499972 #6658]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON proj.ID = p.ProjectID WHERE proj.ID = '1'
+I, [2014-01-30T11:41:24.403663 #6658]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('1','Destroy Car','Destroying the car','150000','01/30/2012')
+I, [2014-01-30T11:41:24.412483 #6658]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:41:30.224590 #6658]  INFO -- : Executing: SELECT * FROM Parts p INNER JOIN Projects proj ON proj.ID = p.ProjectID WHERE proj.ID = '1'
+I, [2014-01-30T11:42:20.166808 #6658]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:42:45.569850 #6668]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:48:01.810685 #6673]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:48:06.808626 #6673]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:48:07.880522 #6673]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:49:11.747487 #6681]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:49:14.537243 #6681]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:49:16.449243 #6681]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:49:20.209256 #6681]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:50:16.733807 #6685]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:50:19.633044 #6685]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:52:37.463383 #6690]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:52:41.008310 #6690]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:52:56.150934 #6690]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:53:19.117308 #6694]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:53:21.299335 #6694]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:53:24.459815 #6694]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:53:49.353014 #6698]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:53:52.214097 #6698]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:53:54.213857 #6698]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:53:58.598062 #6698]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:55:12.803938 #6703]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:55:16.037249 #6703]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:55:17.613301 #6703]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:55:24.701161 #6703]  INFO -- : Executing: SELECT * FROM Projects p INNER JOIN Cars c ON c.ID = p.CarID WHERE c.ID = '1'
+I, [2014-01-30T11:56:33.151007 #6708]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:56:35.738798 #6708]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T11:56:37.562485 #6708]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T11:56:41.338668 #6708]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '2'
+I, [2014-01-30T11:56:59.995372 #6712]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:57:05.211313 #6712]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T11:57:07.739234 #6712]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '2'
+I, [2014-01-30T11:57:51.508769 #6712]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('1', '2', 'Hammer', '01/30/2014', 'Gotta bash it with something', 'Bunyan', '12345', 'Lowes', '25.00', 'true')
+I, [2014-01-30T11:57:51.519362 #6712]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '2'
+I, [2014-01-30T11:59:02.188228 #6722]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:59:05.622431 #6722]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T11:59:36.527858 #6726]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T11:59:38.245758 #6726]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T12:01:09.220020 #6730]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T12:01:11.669345 #6730]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T12:02:27.664639 #6734]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T12:02:29.320011 #6734]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T12:02:30.600078 #6734]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T12:03:12.977638 #6738]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T12:03:16.225355 #6738]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '1'
+I, [2014-01-30T12:03:18.001182 #6738]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
+I, [2014-01-30T12:03:28.289299 #6738]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '2'
+I, [2014-01-30T12:04:56.196606 #6744]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-01-30T12:05:49.145602 #6748]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:00:02.811759 #29916]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:00:54.100594 #29916]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2000','Honda','Accord','EX','150000','3500.00','01/01/2014','3500.00','150000')
+I, [2014-02-03T14:00:54.113170 #29916]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:00:54.113538 #29916]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:01:11.140288 #29916]  INFO -- : Executing: UPDATE Cars SET Year='2000', Make='Honda', Model='Accord', Trim='EX', PurchaseMileage='150000', PurchasePrice='3500.00', PurchaseDate='01/01/2014', CurrentMileage='150000', CurrentValue='2715.00' WHERE ID='2'
+I, [2014-02-03T14:01:11.145521 #29916]  INFO -- : Executing: UPDATE Cars SET Year='2000', Make='Honda', Model='Accord', Trim='EX', PurchaseMileage='150000', PurchasePrice='3500.00', PurchaseDate='01/01/2014', CurrentMileage='150000', CurrentValue='2715.00' WHERE ID='2'
+I, [2014-02-03T14:01:19.407693 #29916]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
+I, [2014-02-03T14:02:08.264948 #29916]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('2','Clutch Replacement','Clutch slipping on shift at high RPMs','155000','02/10/2014')
+I, [2014-02-03T14:02:08.269276 #29916]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
+I, [2014-02-03T14:02:10.721214 #29916]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
+I, [2014-02-03T14:03:14.139799 #29916]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('2', '3', 'Clutch flywheel', '02/10/2014', 'New Clutch flywheel', 'OEM', 'ABC-12345', 'Auto-Zone', '235.00', 'true')
+I, [2014-02-03T14:03:14.144752 #29916]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
+I, [2014-02-03T14:04:01.153766 #29916]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:04:04.426518 #29923]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:04:09.257655 #29923]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
+I, [2014-02-03T14:04:10.777840 #29923]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
+I, [2014-02-03T14:04:36.969706 #29927]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-03T14:06:15.272836 #29927]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
+I, [2014-02-03T14:06:16.329246 #29927]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
+I, [2014-02-03T14:06:55.403345 #29927]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'

@@ -60,6 +60,7 @@ class Logic
       if command.to_i > 0
         project = @projects[command.to_i - 1]
         @parts = project.parts
+
         logic_show_project(car,project)
       elsif command == "+"
         new_project = add_project(car)

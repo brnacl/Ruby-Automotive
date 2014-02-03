@@ -59,7 +59,7 @@ def show_cars cars
     puts "\nCARS\n"
     i = 1
     cars.each do |car|
-      puts "\t#{i}. "+yellow("#{car.year} #{car.make} #{car.model}")
+      puts "\t#{i}. #{yellow(car.to_s)}"
       i += 1
     end
   else
@@ -148,7 +148,7 @@ def add_car
   sub_header << "with #{new_car[4]} miles\s"
   header_add_car(sub_header)
   puts "\nEnter vehicle original purchase price (8000.00):"
-  new_car[5] = gets.chomp
+  new_car[5] = sprintf('%.2f', gets.chomp)
   return false if new_car[5] == "0"
   sub_header << "purchased for $#{new_car[5]}\s"
   header_add_car(sub_header)
