@@ -61,8 +61,6 @@ class Project
     statement = "SELECT Projects.* from Projects WHERE Title LIKE '%#{search_term}%' ORDER BY Title ASC"
     results = db.execute(statement)
     results.map do |row_hash|
-      puts row_hash.to_s
-      gets
       project = Project.new(car_id: row_hash["CarID"],
                             title: row_hash["Title"],
                             description: row_hash["Description"],
