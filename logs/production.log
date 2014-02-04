@@ -1,0 +1,11 @@
+I, [2014-02-04T09:30:32.480395 #31941]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:31:57.392684 #31949]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:32:35.329502 #31953]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:33:07.936035 #31957]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:33:25.125036 #31961]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:33:43.019358 #31961]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:35:26.950809 #31966]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:35:37.791989 #31970]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:36:01.365894 #31970]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
+I, [2014-02-04T09:36:03.581960 #31970]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
+I, [2014-02-04T09:36:17.461901 #31970]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
