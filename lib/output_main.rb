@@ -10,7 +10,7 @@ def header_main
   header = artii.asciify("AUTO REPAIR")
   header << "\n"
   header << "=" * ((header.length / 5) - 15)
-  puts green(header)
+  puts blue(header)
 end
 
 def delete?

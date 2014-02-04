@@ -64,3 +64,9 @@ I, [2014-02-04T10:02:18.581794 #32115]  INFO -- : Executing: SELECT * FROM Proje
 I, [2014-02-04T10:02:22.238087 #32115]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '1'
 I, [2014-02-04T10:02:51.153222 #32115]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '2'
 I, [2014-02-04T10:04:07.822765 #32119]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:09:44.596601 #32152]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:10:15.609245 #32156]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:10:26.163298 #32160]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:11:02.068488 #32164]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:11:10.922723 #32168]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:11:24.064643 #32172]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
