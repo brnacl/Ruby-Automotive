@@ -7,8 +7,10 @@ end
 def header_main
   clear_screen
   artii = Artii::Base.new :font => 'slant'
-  header = artii.asciify('AUTO REPAIR')
-  puts blue(header)
+  header = artii.asciify("AUTO REPAIR")
+  header << "\n"
+  header << "=" * ((header.length / 5) - 15)
+  puts green(header)
 end
 
 def delete?

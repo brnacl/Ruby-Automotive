@@ -1,3 +1,5 @@
+require 'artii'
+
 def header_car car
   puts "\nCAR: " + green("#{car.year} #{car.make} #{car.model}")
 end

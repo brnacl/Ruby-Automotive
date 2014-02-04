@@ -58,6 +58,7 @@ def show_part car,project,part
   details << "\n\tManufacturer:\t"+yellow(part.manufacturer)+"\n"
   details << "\n\tModel No.:\t"+yellow(part.model_num)+"\n"
   details << "\n\tReplaced:\t"+yellow(part.replacement_date)+"\n"
+  details << "\n\tPurchase Price:\t"+yellow("$"+part.purchase_price)+"\n"
   details << "\n\tWarranty:\t"
   if part.warranty == "true"
     details << yellow("Yes\n\n")
