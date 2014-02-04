@@ -9,3 +9,20 @@ I, [2014-02-04T09:35:37.791989 #31970]  INFO -- : Executing: SELECT Cars.* from 
 I, [2014-02-04T09:36:01.365894 #31970]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '2'
 I, [2014-02-04T09:36:03.581960 #31970]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '3'
 I, [2014-02-04T09:36:17.461901 #31970]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:40:09.579604 #32003]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:41:02.100087 #32003]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Kia','Soul','!','1000','23000.00','04/01/2012','23000.00','1000')
+I, [2014-02-04T09:41:02.109777 #32003]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:41:02.110222 #32003]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:41:32.775815 #32003]  INFO -- : Executing: UPDATE Cars SET Year='2012', Make='Kia', Model='Soul', Trim='!', PurchaseMileage='1000', PurchasePrice='23000.00', PurchaseDate='04/01/2012', CurrentMileage='20000', CurrentValue='15145.00' WHERE ID='3'
+I, [2014-02-04T09:41:32.780242 #32003]  INFO -- : Executing: UPDATE Cars SET Year='2012', Make='Kia', Model='Soul', Trim='!', PurchaseMileage='1000', PurchasePrice='23000.00', PurchaseDate='04/01/2012', CurrentMileage='20000', CurrentValue='15145.00' WHERE ID='3'
+I, [2014-02-04T09:41:43.260451 #32003]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '3'
+I, [2014-02-04T09:42:30.554131 #32003]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('3','Replace Front Half of Car','Hit deer, car fucked.','21000','09/01/2013')
+I, [2014-02-04T09:42:30.559001 #32003]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '3'
+I, [2014-02-04T09:42:32.489982 #32003]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-04T09:43:26.929739 #32003]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('3', '4', 'Front', '09/10/2013', 'The front of the car', 'Kia', 'ABC-12345', 'Price's Collision Center', '12000.00', 'true')
+I, [2014-02-04T09:45:41.962773 #32008]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T09:45:46.345505 #32008]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '3'
+I, [2014-02-04T09:45:47.817377 #32008]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-04T09:47:13.383735 #32008]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('3', '4', 'Front of Car', '09/10/2013', 'Entire front half of vehicle', 'Kia', 'ABC-12345', 'Prices Collision Center', '12000.00', 'true')
+I, [2014-02-04T09:47:13.388820 #32008]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-04T09:47:38.812075 #32008]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
