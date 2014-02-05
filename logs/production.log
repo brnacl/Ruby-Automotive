@@ -70,3 +70,34 @@ I, [2014-02-04T10:10:26.163298 #32160]  INFO -- : Executing: SELECT Cars.* from 
 I, [2014-02-04T10:11:02.068488 #32164]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
 I, [2014-02-04T10:11:10.922723 #32168]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
 I, [2014-02-04T10:11:24.064643 #32172]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:12:12.955456 #32192]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:12:21.998566 #32197]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:12:28.665636 #32197]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T10:43:46.638748 #32288]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-04T11:47:38.278981 #32317]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:31:32.829088 #33483]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:32:10.309673 #33491]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:32:33.338519 #33496]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:32:39.548336 #33500]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:32:58.400488 #33504]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:33:24.388687 #33588]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:35:32.061649 #33595]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:36:02.561815 #33600]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T09:59:43.296200 #33657]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T10:00:24.004798 #33657]  INFO -- : Executing: INSERT INTO Cars (Year, Make, Model, Trim, PurchaseMileage, PurchasePrice, PurchaseDate, CurrentValue, CurrentMileage) VALUES ('2012','Audi','S4','Quattro','10000','38000.00','01/01/2012','38000.00','10000')
+I, [2014-02-05T10:00:24.015675 #33657]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T10:00:24.016188 #33657]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T10:01:41.329006 #33657]  INFO -- : Executing: UPDATE Cars SET Year='2012', Make='Audi', Model='S4', Trim='Quattro', PurchaseMileage='10000', PurchasePrice='38000.00', PurchaseDate='01/01/2012', CurrentMileage='1500', CurrentValue='36408.00' WHERE ID='4'
+I, [2014-02-05T10:01:41.333833 #33657]  INFO -- : Executing: UPDATE Cars SET Year='2012', Make='Audi', Model='S4', Trim='Quattro', PurchaseMileage='10000', PurchasePrice='38000.00', PurchaseDate='01/01/2012', CurrentMileage='1500', CurrentValue='36408.00' WHERE ID='4'
+I, [2014-02-05T10:01:50.069609 #33657]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '4'
+I, [2014-02-05T10:02:20.733078 #33657]  INFO -- : Executing: INSERT INTO Projects (CarID, Title, Description, Mileage, StartDate) VALUES ('4','Fix the car','I fixed the car','1300','02/14/2013')
+I, [2014-02-05T10:02:20.737808 #33657]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '4'
+I, [2014-02-05T10:02:35.399752 #33657]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '5'
+I, [2014-02-05T10:04:07.392961 #33657]  INFO -- : Executing: INSERT INTO Parts (CarID,ProjectID,Name,ReplacementDate,Description,Manufacturer,ModelNumber,Vendor,PurchasePrice,Warranty) VALUES ('4', '5', 'Wheel', '02/15/2013', 'Its a wheel', 'Wheel, Co.', 'ABC-123', 'Auto-Zone', '5000.00', 'true')
+I, [2014-02-05T10:04:07.398620 #33657]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '5'
+I, [2014-02-05T10:04:27.620766 #33657]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
+I, [2014-02-05T10:04:32.972945 #33657]  INFO -- : Executing: SELECT * FROM Projects WHERE CarID = '3'
+I, [2014-02-05T10:04:36.860617 #33657]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-05T10:04:43.630322 #33657]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-05T10:04:53.105905 #33657]  INFO -- : Executing: SELECT * FROM Parts WHERE ProjectID = '4'
+I, [2014-02-05T10:55:55.045559 #33830]  INFO -- : Executing: SELECT Cars.* from Cars WHERE Make LIKE '%%' ORDER BY Make ASC
