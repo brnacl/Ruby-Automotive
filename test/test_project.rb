@@ -1,5 +1,4 @@
 require_relative 'helper'
-require_relative '../models/project'
 
 class TestProject < AutoTest
 

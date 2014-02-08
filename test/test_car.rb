@@ -1,7 +1,17 @@
 require_relative 'helper'
-require_relative '../models/car'
 
 class TestCar < AutoTest
+
+  def test_count_when_no_cars
+    assert_equal 0, Car.count
+  end
+
+  def test_count_of_multiple_cars
+    Car.create(year: 2006, make: "Volkswagen", model: "Jetta", trim: "2.5", purchase_mileage: 105000, purchase_price: 8500, purchase_date: "09/01/2012")
+    Car.create(year: 2000, make: "Honda", model: "Civic", trim: "LX", purchase_mileage: 150000, purchase_price: 3500, purchase_date: "01/01/2013")
+    Car.create(year: 2004, make: "Audi", model: "A4", trim: "Quattro", purchase_mileage: 85000, purchase_price: 25000, purchase_date: "01/10/2009")
+    assert_equal 3, Car.count
+  end
 
   def test_car_year
     car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
@@ -61,9 +71,9 @@ class TestCar < AutoTest
 
   def test_update_doesnt_insert_new_row
     car = Car.create(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    foos_before = database.execute("SELECT COUNT(ID) FROM Cars")[0][0]
+    foos_before = Car.count
     car.update(trim: "2.0")
-    foos_after = database.execute("SELECT COUNT(ID) FROM Cars")[0][0]
+    foos_after = Car.count
     assert_equal foos_before, foos_after
   end
 
@@ -87,9 +97,9 @@ class TestCar < AutoTest
 
   def test_saved_cars_are_saved
     car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    foos_before = database.execute("SELECT COUNT(ID) FROM Cars")[0][0]
+    foos_before = Car.count
     car.save
-    foos_after = database.execute("SELECT COUNT(ID) FROM Cars")[0][0]
+    foos_after = Car.count
     assert_equal foos_before + 1, foos_after
   end
 
@@ -162,10 +172,18 @@ class TestCar < AutoTest
     assert car1 == car2
   end
 
-  def test_car_get_current_value_returns_integer
-    car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    value = car.get_current_value([120000,"Outstanding",37206])
-    assert_operator(0, :<, value)
+  def test_find_returns_the_row_as_car_object
+    car = Car.create(year: 2006, make: "Volkswagen", model: "Jetta", trim: "2.5", purchase_mileage: 105000, purchase_price: 8500, purchase_date: "09/01/2012")
+    found = Car.find(car.id)
+    assert_equal car.year, found.year
+    assert_equal car.make, found.make
+    assert_equal car.model, found.model
+    assert_equal car.projects, found.projects
   end
+  # def test_car_get_current_value_returns_integer
+  #   car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
+  #   value = car.get_current_value([120000,"Outstanding",37206])
+  #   assert_operator(0, :<, value)
+  # end
 
 end

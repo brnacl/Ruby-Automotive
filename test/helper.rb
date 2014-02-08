@@ -11,9 +11,9 @@ class AutoTest < MiniTest::Unit::TestCase
   end
 
   def teardown
-    database.execute("delete from Cars")
-    database.execute("delete from Projects")
-    database.execute("delete from Parts")
+    Car.destroy_all
+    Project.destroy_all
+    Part.destroy_all
   end
 
   def assert_command_output expected, command

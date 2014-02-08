@@ -1,11 +1,11 @@
 require "sqlite3"
 
 class Database < SQLite3::Database
-  def self.connection environment
-    @connection ||= Database.new("db/ruby_auto_#{environment}.sqlite")
+  def self.connection(environment)
+    @connection ||= Database.new("db/autotracker_#{environment}.sqlite3")
   end
 
-  def execute statement
+  def execute(statement)
     Environment.logger.info("Executing: " + statement)
     super(statement)
   end
