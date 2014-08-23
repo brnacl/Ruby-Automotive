@@ -6,7 +6,7 @@ Dir["lib/*.rb"].each {|file| require_relative file }
 Dir["models/*.rb"].each {|file| require_relative file }
 
 Environment.environment = "production"
-db = Environment.database_connection
+Environment.connect_to_database
 
 command = ""
 until command == "0"

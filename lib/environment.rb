@@ -10,6 +10,7 @@ require 'logger'
 require 'yaml'
 
 class Environment
+
   def self.environment= environment
     @@environment = environment
   end
@@ -22,4 +23,5 @@ class Environment
   def self.logger
     @@logger ||= Logger.new("logs/#{@@environment}.log")
   end
+
 end

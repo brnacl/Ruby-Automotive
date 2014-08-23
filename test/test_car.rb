@@ -38,35 +38,40 @@ class TestCar < AutoTest
     assert_equal(105000, car.purchase_mileage)
   end
 
-  def test_car_purchase_price
+  def test_car_formatted_purchase_price
     car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    assert_equal("8500.00", car.purchase_price)
+    assert_equal("$8500.00", car.formatted_purchase_price)
   end
 
-  def test_car_purchase_date
+  def test_car_formatted_purchase_date_saves_date_data_type
     car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    assert_equal("09/01/2012", car.purchase_date)
+    assert_equal("2012-01-09", car.formatted_purchase_date)
   end
 
-  def test_car_current_value_initializes_to_purchase_price
-    car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    assert_equal(car.purchase_price, car.current_value)
-  end
+  # def test_car_current_value_initializes_to_purchase_price
+  #   car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
+  #   assert_equal(car.purchase_price, car.current_value)
+  # end
 
-  def test_car_current_mileage_initializes_to_purchase_mileage
-    car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
-    assert_equal(car.purchase_mileage, car.current_mileage)
-  end
+  # def test_car_current_mileage_initializes_to_purchase_mileage
+  #   car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
+  #   assert_equal(car.purchase_mileage, car.current_mileage)
+  # end
+
 
   def test_car_projects_returns_array
-    car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
+    car = Car.create(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
+    Project.create(car_id: car.id, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
     projects = car.projects
-    assert_kind_of(Array,projects)
+    assert_equal(1,projects.length)
   end
 
   def test_car_all_returns_array
-    cars = Car.all
-    assert_kind_of(Array,cars)
+    Car.create(year: 2006, make: "Volkswagen", model: "Jetta", trim: "2.5", purchase_mileage: 105000, purchase_price: 8500, purchase_date: "09/01/2012")
+    Car.create(year: 2000, make: "Honda", model: "Civic", trim: "LX", purchase_mileage: 150000, purchase_price: 3500, purchase_date: "01/01/2013")
+    Car.create(year: 2004, make: "Audi", model: "A4", trim: "Quattro", purchase_mileage: 85000, purchase_price: 25000, purchase_date: "01/10/2009")
+    num_cars = Car.count
+    assert_equal(3,num_cars)
   end
 
   def test_update_doesnt_insert_new_row
@@ -108,16 +113,10 @@ class TestCar < AutoTest
     refute_nil car.id, "Car id shouldn't be nil"
   end
 
-  def test_find_returns_nil_if_unfindable
-    assert_nil Car.find(12342)
-  end
-
   def test_find_returns_the_row_as_car_object
     car = Car.create(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
     found = Car.find(car.id)
-    # Ideally: assert_equal purchase, found
-    assert_equal car.make, found.make
-    assert_equal car.id, found.id
+    assert_equal car, found
   end
 
   def test_search_returns_car_objects
@@ -180,6 +179,7 @@ class TestCar < AutoTest
     assert_equal car.model, found.model
     assert_equal car.projects, found.projects
   end
+
   # def test_car_get_current_value_returns_integer
   #   car = Car.new(year: 2006,make: "Volkswagen",model: "Jetta",trim: "2.5",purchase_mileage: 105000,purchase_price: 8500,purchase_date: "09/01/2012")
   #   value = car.get_current_value([120000,"Outstanding",37206])

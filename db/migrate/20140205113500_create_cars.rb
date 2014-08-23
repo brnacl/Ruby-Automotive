@@ -8,7 +8,7 @@ class CreateCars < ActiveRecord::Migration
       t.integer :purchase_mileage
       t.decimal :purchase_price
       t.date :purchase_date
-      t.integer :current_value
+      t.decimal :current_value
       t.integer :current_mileage
     end
   end

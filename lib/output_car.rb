@@ -75,10 +75,10 @@ def show_car car
   header_car(car)
   details = "\n\tTrim Package:\t\t"+yellow(car.trim)+"\n"
   details << "\n\tPurchase Mileage:\t"+yellow(car.purchase_mileage.to_s)+"\n"
-  details << "\n\tPurchase Price:\t\t"+yellow("$"+car.purchase_price)+"\n"
-  details << "\n\tPurchase Date:\t\t"+yellow(car.purchase_date)+"\n"
+  details << "\n\tPurchase Price:\t\t"+yellow(car.formatted_purchase_price)+"\n"
+  details << "\n\tPurchase Date:\t\t"+yellow(car.formatted_purchase_date)+"\n"
   details << "\n\tCurrent Mileage:\t"+yellow(car.current_mileage.to_s)+"\n"
-  details << "\n\tCurrent Value:\t\t"+yellow("$"+car.current_value)+"\n"
+  details << "\n\tCurrent Value:\t\t"+yellow(car.formatted_current_value)+"\n"
   puts details
 end
 

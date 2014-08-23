@@ -6,6 +6,13 @@ class Car < ActiveRecord::Base
 
   default_scope { order("make ASC") }
 
+  after_initialize :init
+
+  def init
+    self.current_value ||= purchase_price
+    self.current_mileage ||= purchase_mileage
+  end
+
   def self.search(search_term = nil)
     Car.where("model LIKE ?", "%#{search_term}%").to_a
   end
@@ -14,25 +21,20 @@ class Car < ActiveRecord::Base
     "$%04.2f" % purchase_price
   end
 
+  def formatted_current_value
+    "$%04.2f" % current_value
+  end
+
+  def formatted_purchase_date
+    purchase_date.to_s
+  end
+
   def projects
-    db = Environment.database_connection
-    output = []
-    begin
-      statement = "SELECT * FROM Projects WHERE CarID = '#{id}'"
-      results = db.execute(statement)
-      results.map do |row_hash|
-        project = Project.new(car_id: row_hash["CarID"],
-                              title: row_hash["Title"],
-                              description: row_hash["Description"],
-                              mileage: row_hash["Mileage"],
-                              start_date: row_hash["StartDate"]
-                  )
-        project.send("id=", row_hash["ID"])
-        project
-      end
-    rescue Exception=>e
-      e
-    end
+    Project.where("car_id = '#{self.id}'").to_a
+  end
+
+  def to_s
+    "#{year} #{make} #{model}"
   end
 
   def get_current_value args

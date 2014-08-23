@@ -22,27 +22,30 @@ class TestProject < AutoTest
     assert_equal(150000, project.mileage)
   end
 
-  def test_start_date
+  def test_formatted_start_date
     project = Project.new(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
-    assert_equal("01/01/2014", project.start_date)
+    assert_equal("2014-01-01", project.formatted_start_date)
   end
 
   def test_parts_returns_array
-    project = Project.new(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
+    project = Project.create(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
+    Part.create(car_id: 1, project_id: project.id, name: "Engine Bolt", replacement_date: "01/01/2014", description: "A happy little engine bolt", manufacturer: "Bolt, Co.", model_number: "ABC-123-XYZ", vendor: "Auto Zone", purchase_price: 5.00, warranty: true)
     parts = project.parts
-    assert_kind_of(Array,parts)
+    assert_equal(1,parts.length)
   end
 
   def test_all_returns_array
-    projects = Project.all
-    assert_kind_of(Array,projects)
+    Project.create(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
+    Project.create(car_id: 1, title: "Fix the engine", description: "Engine make car go", mileage: 150000, start_date: "01/01/2014")
+    num_projects = Project.count
+    assert_equal(2,num_projects)
   end
 
   def test_update_doesnt_insert_new_row
     project = Project.create(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
-    foos_before = database.execute("SELECT COUNT(ID) FROM Projects")[0][0]
+    foos_before = Project.count
     project.update(mileage: 155000)
-    foos_after = database.execute("SELECT COUNT(ID) FROM Projects")[0][0]
+    foos_after = Project.count
     assert_equal foos_before, foos_after
   end
 
@@ -66,19 +69,15 @@ class TestProject < AutoTest
 
   def test_saved_projects_are_saved
     project = Project.new(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
-    foos_before = database.execute("SELECT COUNT(ID) FROM Projects")[0][0]
+    foos_before = Project.count
     project.save
-    foos_after = database.execute("SELECT COUNT(ID) FROM Projects")[0][0]
+    foos_after = Project.count
     assert_equal foos_before + 1, foos_after
   end
 
   def test_save_creates_an_id
     project = Project.create(car_id: 1, title: "Fix the car", description: "A nice happy little test project", mileage: 150000, start_date: "01/01/2014")
     refute_nil project.id, "Project id shouldn't be nil"
-  end
-
-  def test_find_returns_nil_if_unfindable
-    assert_nil Project.find(12342)
   end
 
   def test_find_returns_the_row_as_project_object

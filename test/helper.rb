@@ -4,10 +4,7 @@ require_relative '../lib/environment'
 class AutoTest < MiniTest::Unit::TestCase
   def setup
     Environment.environment = "test"
-  end
-
-  def database
-    Environment.database_connection
+    Environment.connect_to_database
   end
 
   def teardown

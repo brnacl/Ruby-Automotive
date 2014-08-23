@@ -56,9 +56,9 @@ def show_part car,project,part
   details = "\n\tPart:\t"+yellow(part.name)+"\n"
   details << "\n\tDescription:\t"+yellow(part.description)+"\n"
   details << "\n\tManufacturer:\t"+yellow(part.manufacturer)+"\n"
-  details << "\n\tModel No.:\t"+yellow(part.model_num)+"\n"
-  details << "\n\tReplaced:\t"+yellow(part.replacement_date)+"\n"
-  details << "\n\tPurchase Price:\t"+yellow("$"+part.purchase_price)+"\n"
+  details << "\n\tModel No.:\t"+yellow(part.model_number)+"\n"
+  details << "\n\tReplaced:\t"+yellow(part.formatted_replacement_date)+"\n"
+  details << "\n\tPurchase Price:\t"+yellow(part.formatted_purchase_price)+"\n"
   details << "\n\tWarranty:\t"
   if part.warranty == "true"
     details << yellow("Yes\n\n")
@@ -115,7 +115,7 @@ def add_part car,project
   new_part[9] = new_part[9].downcase == "y" ? true : false
   sub_header << "\tWarranty: #{green(new_part[9])}\n"
   header_add_part(car,project,sub_header)
-  part = Part.new(car_id: new_part[0], project_id: new_part[1], name: new_part[2], replacement_date: new_part[3], description: new_part[4], manufacturer: new_part[5], model_num: new_part[6], vendor: new_part[7], purchase_price: new_part[8], warranty: new_part[9])
+  part = Part.new(car_id: new_part[0], project_id: new_part[1], name: new_part[2], replacement_date: new_part[3], description: new_part[4], manufacturer: new_part[5], model_number: new_part[6], vendor: new_part[7], purchase_price: new_part[8], warranty: new_part[9])
   puts "\nSave Part: "+green("1")+"(YES) "+red("2")+"(NO)"
   confirm = 0
   until confirm == 1
